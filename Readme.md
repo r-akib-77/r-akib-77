@@ -114,69 +114,13 @@ Pointer
 
 ## `02 / WHAT I BUILD`
 
-<br/>
-
-<table width="100%">
-<tr>
-
-<td align="center" width="25%">
-
-### 🔐
-
-**SECURITY**
-
-Zero-Knowledge  
-Encryption  
-WebAuthn  
-Secure Systems
-
-</td>
-
-<td align="center" width="25%">
-
-### 💳
-
-**PAYMENTS**
-
-Stripe  
-Webhooks  
-3DS / SCA  
-Transactions
-
-</td>
-
-<td align="center" width="25%">
-
-### ⚡
-
-**REALTIME**
-
-Socket.io  
-WebSockets  
-LiveKit  
-Event Systems
-
-</td>
-
-<td align="center" width="25%">
-
-### 🤖
-
-**AI SYSTEMS**
-
-MCP  
-AI Agents  
-Automation  
-AI Pipelines
-
-</td>
-
-</tr>
-</table>
+<img
+  src="./assets/what-i-build.svg"
+  width="100%"
+  alt="What I Build"
+/>
 
 </div>
-
----
 
 <div align="center">
 
@@ -353,20 +297,11 @@ B2B lead-generation platform with scraping, newsletters and tracking.
 
 <br/><br/>
 
-```text
-┌──────────────────────────────────────────────┐
-│                                              │
-│   NULL POINTER                               │
-│                                              │
-│   $ solve --problem                          │
-│   $ compile --optimized                      │
-│   $ debug --until=AC                         │
-│   $ submit                                   │
-│                                              │
-│   ● ONLINE                         [ AC ✓ ]  │
-│                                              │
-└──────────────────────────────────────────────┘
-```
+<img
+  src="./assets/null-pointer.svg"
+  width="700" 
+  alt="Null Pointer"
+/>
 
 </div>
 
@@ -434,11 +369,11 @@ CI/CD
 
 ## `07 / GITHUB ACTIVITY`
 
-<br/> <a href="https://github.com/r-akib-77"> <img src="https://github-readme-stats.vercel.app/api?username=r-akib-77&show_icons=true&hide_border=true&bg_color=020617&title_color=38BDF8&text_color=F8FAFC&icon_color=22D3EE&ring_color=38BDF8&rank_icon=github" width="48%" alt="GitHub Stats" /> </a> <a href="https://github.com/r-akib-77"> <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=r-akib-77&layout=compact&hide_border=true&bg_color=020617&title_color=38BDF8&text_color=F8FAFC" width="40%" alt="Top Languages" /> </a>
-
-<br/><br/>
-
-<img src="https://streak-stats.demolab.com?user=r-akib-77&theme=dark&hide_border=true&background=020617&stroke=0EA5E9&ring=38BDF8&fire=22C55E&currStreakLabel=38BDF8&sideLabels=CBD5E1&dates=64748B" width="75%" alt="GitHub Streak" />
+<img
+  src="./assets/github-stats.svg"
+  width="100%"
+  alt="GitHub Statistics"
+/>
 
 <br/><br/>
 
@@ -457,7 +392,8 @@ CI/CD
 <table width="90%"> <tr> <td align="center">
 
 <img
-  src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=14&duration=1700&pause=650&color=38BDF8&width=700&height=520&center=true&vCenter=true&multiline=true&lines=rakib%40dev%3A~%24+whoami%0ARakibul+Hasan+Rakib%0A%0Arakib%40dev%3A~%24+cat+.%2Fprofile%0AFull-Stack+Engineer%0AProduct+Builder%0AAI+%2F+MCP+Engineer%0ACompetitive+Programmer%0A%0Arakib%40dev%3A~%24+echo+%24TEAM%0ANull+Pointer%0A%0Arakib%40dev%3A~%24+echo+%24CODEFORCES%0Arakib_NP%0A%0Arakib%40dev%3A~%24+echo+%24STATUS%0A%E2%97%8F+AVAILABLE%0A%0Arakib%40dev%3A~%24+.%2Fconnect.sh%0AGitHub+%E2%86%92+github.com%2Fr-akib-77%0ACodeforces+%E2%86%92+codeforces.com%2Fprofile%2Frakib_NP%0AEmail+%E2%86%92+rakibulhasanrakib2004%40gmail.com%0A%0Arakib%40dev%3A~%24+%E2%96%88"
+  src="./assets/terminal.svg"
+  width="90%"
   alt="Rakib Linux Terminal"
 />
 
@@ -465,7 +401,11 @@ CI/CD
 
 <br/><br/>
 
-<img src="https://komarev.com/ghpvc/?username=r-akib-77&style=for-the-badge&color=0EA5E9&label=PROFILE+VIEWS" alt="Profile Views" />
+<img
+  src="./assets/profile-view.svg"
+  width="260"
+  alt="Profile Views"
+/>
 
 </div> <br/>
 

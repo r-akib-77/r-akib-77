@@ -1,0 +1,375 @@
+<svg
+  width="1000"
+  height="260"
+  viewBox="0 0 1000 260"
+  xmlns="http://www.w3.org/2000/svg"
+>
+
+  <!-- Background -->
+  <rect
+    width="1000"
+    height="260"
+    rx="18"
+    fill="#020617"
+  />
+
+  <!-- ================= SECURITY ================= -->
+
+  <rect
+    x="15"
+    y="15"
+    width="230"
+    height="230"
+    rx="14"
+    fill="#0F172A"
+    stroke="#164E63"
+    stroke-width="2"
+  />
+
+  <!-- Icon -->
+  <text
+    x="130"
+    y="62"
+    text-anchor="middle"
+    font-size="32"
+  >
+    🔐
+  </text>
+
+  <!-- Title -->
+  <text
+    x="130"
+    y="100"
+    text-anchor="middle"
+    fill="#38BDF8"
+    font-family="Fira Code, monospace"
+    font-size="17"
+    font-weight="700"
+    letter-spacing="1"
+  >
+    SECURITY
+  </text>
+
+  <!-- Divider -->
+  <line
+    x1="55"
+    y1="115"
+    x2="205"
+    y2="115"
+    stroke="#164E63"
+    stroke-width="1"
+  />
+
+  <!-- Content -->
+  <text
+    x="130"
+    y="145"
+    text-anchor="middle"
+    fill="#CBD5E1"
+    font-family="Fira Code, monospace"
+    font-size="13"
+  >
+    Zero-Knowledge
+  </text>
+
+  <text
+    x="130"
+    y="170"
+    text-anchor="middle"
+    fill="#CBD5E1"
+    font-family="Fira Code, monospace"
+    font-size="13"
+  >
+    Encryption
+  </text>
+
+  <text
+    x="130"
+    y="195"
+    text-anchor="middle"
+    fill="#CBD5E1"
+    font-family="Fira Code, monospace"
+    font-size="13"
+  >
+    WebAuthn
+  </text>
+
+  <text
+    x="130"
+    y="220"
+    text-anchor="middle"
+    fill="#CBD5E1"
+    font-family="Fira Code, monospace"
+    font-size="13"
+  >
+    Secure Systems
+  </text>
+
+
+  <!-- ================= PAYMENTS ================= -->
+
+  <rect
+    x="260"
+    y="15"
+    width="230"
+    height="230"
+    rx="14"
+    fill="#0F172A"
+    stroke="#164E63"
+    stroke-width="2"
+  />
+
+  <text
+    x="375"
+    y="62"
+    text-anchor="middle"
+    font-size="32"
+  >
+    💳
+  </text>
+
+  <text
+    x="375"
+    y="100"
+    text-anchor="middle"
+    fill="#22D3EE"
+    font-family="Fira Code, monospace"
+    font-size="17"
+    font-weight="700"
+    letter-spacing="1"
+  >
+    PAYMENTS
+  </text>
+
+  <line
+    x1="300"
+    y1="115"
+    x2="450"
+    y2="115"
+    stroke="#164E63"
+    stroke-width="1"
+  />
+
+  <text
+    x="375"
+    y="145"
+    text-anchor="middle"
+    fill="#CBD5E1"
+    font-family="Fira Code, monospace"
+    font-size="13"
+  >
+    Stripe
+  </text>
+
+  <text
+    x="375"
+    y="170"
+    text-anchor="middle"
+    fill="#CBD5E1"
+    font-family="Fira Code, monospace"
+    font-size="13"
+  >
+    Webhooks
+  </text>
+
+  <text
+    x="375"
+    y="195"
+    text-anchor="middle"
+    fill="#CBD5E1"
+    font-family="Fira Code, monospace"
+    font-size="13"
+  >
+    3DS / SCA
+  </text>
+
+  <text
+    x="375"
+    y="220"
+    text-anchor="middle"
+    fill="#CBD5E1"
+    font-family="Fira Code, monospace"
+    font-size="13"
+  >
+    Transactions
+  </text>
+
+
+  <!-- ================= REALTIME ================= -->
+
+  <rect
+    x="505"
+    y="15"
+    width="230"
+    height="230"
+    rx="14"
+    fill="#0F172A"
+    stroke="#164E63"
+    stroke-width="2"
+  />
+
+  <text
+    x="620"
+    y="62"
+    text-anchor="middle"
+    font-size="32"
+  >
+    ⚡
+  </text>
+
+  <text
+    x="620"
+    y="100"
+    text-anchor="middle"
+    fill="#38BDF8"
+    font-family="Fira Code, monospace"
+    font-size="17"
+    font-weight="700"
+    letter-spacing="1"
+  >
+    REALTIME
+  </text>
+
+  <line
+    x1="545"
+    y1="115"
+    x2="695"
+    y2="115"
+    stroke="#164E63"
+    stroke-width="1"
+  />
+
+  <text
+    x="620"
+    y="145"
+    text-anchor="middle"
+    fill="#CBD5E1"
+    font-family="Fira Code, monospace"
+    font-size="13"
+  >
+    Socket.io
+  </text>
+
+  <text
+    x="620"
+    y="170"
+    text-anchor="middle"
+    fill="#CBD5E1"
+    font-family="Fira Code, monospace"
+    font-size="13"
+  >
+    WebSockets
+  </text>
+
+  <text
+    x="620"
+    y="195"
+    text-anchor="middle"
+    fill="#CBD5E1"
+    font-family="Fira Code, monospace"
+    font-size="13"
+  >
+    LiveKit
+  </text>
+
+  <text
+    x="620"
+    y="220"
+    text-anchor="middle"
+    fill="#CBD5E1"
+    font-family="Fira Code, monospace"
+    font-size="13"
+  >
+    Event Systems
+  </text>
+
+
+  <!-- ================= AI SYSTEMS ================= -->
+
+  <rect
+    x="750"
+    y="15"
+    width="235"
+    height="230"
+    rx="14"
+    fill="#0F172A"
+    stroke="#164E63"
+    stroke-width="2"
+  />
+
+  <text
+    x="867"
+    y="62"
+    text-anchor="middle"
+    font-size="32"
+  >
+    🤖
+  </text>
+
+  <text
+    x="867"
+    y="100"
+    text-anchor="middle"
+    fill="#14B8A6"
+    font-family="Fira Code, monospace"
+    font-size="17"
+    font-weight="700"
+    letter-spacing="1"
+  >
+    AI SYSTEMS
+  </text>
+
+  <line
+    x1="790"
+    y1="115"
+    x2="945"
+    y2="115"
+    stroke="#164E63"
+    stroke-width="1"
+  />
+
+  <text
+    x="867"
+    y="145"
+    text-anchor="middle"
+    fill="#CBD5E1"
+    font-family="Fira Code, monospace"
+    font-size="13"
+  >
+    MCP
+  </text>
+
+  <text
+    x="867"
+    y="170"
+    text-anchor="middle"
+    fill="#CBD5E1"
+    font-family="Fira Code, monospace"
+    font-size="13"
+  >
+    AI Agents
+  </text>
+
+  <text
+    x="867"
+    y="195"
+    text-anchor="middle"
+    fill="#CBD5E1"
+    font-family="Fira Code, monospace"
+    font-size="13"
+  >
+    Automation
+  </text>
+
+  <text
+    x="867"
+    y="220"
+    text-anchor="middle"
+    fill="#CBD5E1"
+    font-family="Fira Code, monospace"
+    font-size="13"
+  >
+    AI Pipelines
+  </text>
+
+</svg>
