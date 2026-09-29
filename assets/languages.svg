@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="232" viewBox="0 0 500 232">
+  <defs>
+    <linearGradient id="g2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ec4899"/><stop offset="50%" stop-color="#8b5cf6"/><stop offset="100%" stop-color="#6366f1"/>
+    </linearGradient>
+    <clipPath id="card"><rect x="1" y="1" width="498" height="230" rx="14"/></clipPath>
+    <clipPath id="bar"><rect x="24" y="62" width="452" height="18" rx="7"/></clipPath>
+  </defs>
+  <g clip-path="url(#card)">
+    <rect x="1" y="1" width="498" height="230" fill="#1a1b26"/>
+    <rect x="1" y="1" width="498" height="6" fill="url(#g2)"/>
+  </g>
+  <rect x="1.75" y="1.75" width="496.5" height="228.5" rx="13.25" fill="none" stroke="url(#g2)" stroke-opacity="0.55" stroke-width="1.5"/>
+  <text x="24" y="46" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="19" font-weight="700" fill="#c0caf5">Language Distribution</text>
+  <g clip-path="url(#bar)">
+    <rect x="24" y="62" width="288.8" height="18" fill="#e34c26"/>
+    <rect x="312.8" y="62" width="115.3" height="18" fill="#3178c6"/>
+    <rect x="428.1" y="62" width="16.7" height="18" fill="#f1e05a"/>
+    <rect x="444.8" y="62" width="10.8" height="18" fill="#4F5D95"/>
+    <rect x="455.6" y="62" width="9.9" height="18" fill="#3572A5"/>
+    <rect x="465.5" y="62" width="10.5" height="18" fill="#565f89"/>
+  </g>
+  <rect x="28" y="112" width="12" height="12" rx="3" fill="#e34c26"/>
+  <text x="48" y="122" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="13.5" fill="#9aa5ce">HTML</text>
+  <text x="236" y="122" text-anchor="end" font-family="Consolas,monospace" font-size="13" font-weight="700" fill="#ffffff">63.9%</text>
+  <rect x="256" y="112" width="12" height="12" rx="3" fill="#3178c6"/>
+  <text x="276" y="122" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="13.5" fill="#9aa5ce">TypeScript</text>
+  <text x="476" y="122" text-anchor="end" font-family="Consolas,monospace" font-size="13" font-weight="700" fill="#ffffff">25.5%</text>
+  <rect x="28" y="140" width="12" height="12" rx="3" fill="#f1e05a"/>
+  <text x="48" y="150" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="13.5" fill="#9aa5ce">JavaScript</text>
+  <text x="236" y="150" text-anchor="end" font-family="Consolas,monospace" font-size="13" font-weight="700" fill="#ffffff">3.7%</text>
+  <rect x="256" y="140" width="12" height="12" rx="3" fill="#4F5D95"/>
+  <text x="276" y="150" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="13.5" fill="#9aa5ce">PHP</text>
+  <text x="476" y="150" text-anchor="end" font-family="Consolas,monospace" font-size="13" font-weight="700" fill="#ffffff">2.4%</text>
+  <rect x="28" y="168" width="12" height="12" rx="3" fill="#3572A5"/>
+  <text x="48" y="178" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="13.5" fill="#9aa5ce">Python</text>
+  <text x="236" y="178" text-anchor="end" font-family="Consolas,monospace" font-size="13" font-weight="700" fill="#ffffff">2.2%</text>
+  <rect x="256" y="168" width="12" height="12" rx="3" fill="#dea584"/>
+  <text x="276" y="178" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="13.5" fill="#9aa5ce">Rust / Go / Kotlin</text>
+  <text x="476" y="178" text-anchor="end" font-family="Consolas,monospace" font-size="13" font-weight="700" fill="#ffffff">1.1%</text>
+  <text x="24" y="212" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="11" fill="#565f89">computed from byte counts across all 32 repositories</text>
+</svg>

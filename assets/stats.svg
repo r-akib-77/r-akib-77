@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="232" viewBox="0 0 500 232">
+  <defs>
+    <linearGradient id="g1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#6366f1"/><stop offset="50%" stop-color="#8b5cf6"/><stop offset="100%" stop-color="#ec4899"/>
+    </linearGradient>
+    <clipPath id="r"><rect x="1" y="1" width="498" height="230" rx="14"/></clipPath>
+  </defs>
+  <g clip-path="url(#r)">
+    <rect x="1" y="1" width="498" height="230" fill="#1a1b26"/>
+    <rect x="1" y="1" width="498" height="6" fill="url(#g1)"/>
+  </g>
+  <rect x="1.75" y="1.75" width="496.5" height="228.5" rx="13.25" fill="none" stroke="url(#g1)" stroke-opacity="0.55" stroke-width="1.5"/>
+  <text x="24" y="46" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="19" font-weight="700" fill="#c0caf5">GitHub Profile</text>
+  <circle cx="34" cy="82" r="5" fill="#6366f1"/>
+  <text x="50" y="87" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="14.5" fill="#9aa5ce">Public Repositories</text>
+  <text x="476" y="87" text-anchor="end" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="17" font-weight="700" fill="#ffffff">32</text>
+  <circle cx="34" cy="118" r="5" fill="#8b5cf6"/>
+  <text x="50" y="123" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="14.5" fill="#9aa5ce">Languages Used</text>
+  <text x="476" y="123" text-anchor="end" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="17" font-weight="700" fill="#ffffff">10+</text>
+  <circle cx="34" cy="154" r="5" fill="#ec4899"/>
+  <text x="50" y="159" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="14.5" fill="#9aa5ce">Trophy Badges</text>
+  <text x="476" y="159" text-anchor="end" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="17" font-weight="700" fill="#ffffff">Pull Shark x2 &#183; Pair x3</text>
+  <circle cx="34" cy="190" r="5" fill="#7aa2f7"/>
+  <text x="50" y="195" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="14.5" fill="#9aa5ce">Flagship Products</text>
+  <text x="476" y="195" text-anchor="end" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="17" font-weight="700" fill="#ffffff">8 shipped</text>
+</svg>
