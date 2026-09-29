@@ -17,34 +17,14 @@
 
 <br/><br/>
 
-<a href="https://github.com/r-akib-77">
-  <img
-    src="./assets/contact-github.svg"
-    height="46"
-    alt="GitHub — r-akib-77"
-  />
-</a>
+<div align="center">
 
-&nbsp;&nbsp;
+<a href="https://github.com/r-akib-77"><img src="./assets/contact-github.svg" height="46" alt="GitHub — r-akib-77"/></a>&nbsp;&nbsp;
+<a href="https://codeforces.com/profile/rakib_NP"><img src="./assets/contact-codeforces.svg" height="46" alt="Codeforces — rakib_NP"/></a>&nbsp;&nbsp;
+<a href="mailto:rakibulhasanrakib2004@gmail.com"><img src="./assets/contact-email.svg" height="46" alt="Email — rakibulhasanrakib2004@gmail.com"/></a>
 
-<a href="https://codeforces.com/profile/rakib_NP">
-  <img
-    src="./assets/contact-codeforces.svg"
-    height="46"
-    alt="Codeforces — rakib_NP"
-  />
-</a>
+</div>
 
-&nbsp;&nbsp;
-
-<a href="mailto:rakibulhasanrakib2004@gmail.com">
-  <img
-    src="./assets/contact-email.svg"
-    height="46"
-    alt="Email — rakibulhasanrakib2004@gmail.com"
-  />
-</a>
-  
 </div>
 
 ---
