@@ -15,58 +15,46 @@
 
 <br/><br/>
 
-<img
-  src="https://img.shields.io/badge/FULL--STACK-0EA5E9?style=for-the-badge&labelColor=020617&logoColor=F8FAFC"
-  alt="Full Stack"
-/>
-
-<img
-  src="https://img.shields.io/badge/PRODUCT-06B6D4?style=for-the-badge&labelColor=020617&logoColor=F8FAFC"
-  alt="Product"
-/>
-
-<img
-  src="https://img.shields.io/badge/AI%20%26%20MCP-14B8A6?style=for-the-badge&labelColor=020617&logoColor=F8FAFC"
-  alt="AI and MCP"
-/>
-
-<img
-  src="https://img.shields.io/badge/OPEN%20TO%20BUILD-22C55E?style=for-the-badge&labelColor=020617&logoColor=F8FAFC"
-  alt="Open to Build"
-/>
+<img src="https://img.shields.io/badge/FULL--STACK-0EA5E9?style=for-the-badge&labelColor=020617&logoColor=F8FAFC" alt="Full Stack"/>
+<img src="https://img.shields.io/badge/PRODUCT-06B6D4?style=for-the-badge&labelColor=020617&logoColor=F8FAFC" alt="Product"/>
+<img src="https://img.shields.io/badge/AI%20%26%20MCP-14B8A6?style=for-the-badge&labelColor=020617&logoColor=F8FAFC" alt="AI and MCP"/>
+<img src="https://img.shields.io/badge/OPEN%20TO%20BUILD-22C55E?style=for-the-badge&labelColor=020617&logoColor=F8FAFC" alt="Open to Build"/>
 
 <br/><br/>
 
 <a href="https://github.com/r-akib-77">
-  <img
-    src="https://img.shields.io/badge/GitHub-r--akib--77-0F172A?style=for-the-badge&logo=github&logoColor=F8FAFC"
-    alt="GitHub"
-  />
+  <img src="https://img.shields.io/badge/GitHub-r--akib--77-0F172A?style=for-the-badge&logo=github&logoColor=F8FAFC" alt="GitHub"/>
 </a>
 
 <a href="https://codeforces.com/profile/rakib_NP">
-  <img
-    src="https://img.shields.io/badge/Codeforces-rakib__NP-0F172A?style=for-the-badge&logo=codeforces&logoColor=38BDF8"
-    alt="Codeforces"
-  />
+  <img src="https://img.shields.io/badge/Codeforces-rakib__NP-0F172A?style=for-the-badge&logo=codeforces&logoColor=38BDF8" alt="Codeforces"/>
 </a>
 
 <a href="mailto:rakibulhasanrakib2004@gmail.com">
-  <img
-    src="https://img.shields.io/badge/Gmail-rakibulhasanrakib2004%40gmail.com-0F172A?style=for-the-badge&logo=gmail&logoColor=38BDF8"
-    alt="Email"
-  />
+  <img src="https://img.shields.io/badge/Gmail-rakibulhasanrakib2004%40gmail.com-0F172A?style=for-the-badge&logo=gmail&logoColor=38BDF8" alt="Email"/>
 </a>
 
 </div>
 
 ---
 
-## `01 / ABOUT`
-
 <div align="center">
 
-> **Full-Stack Engineer building production-ready products across web, backend, AI, payments, and infrastructure.**
+## `01 / ABOUT`
+
+<br/>
+
+<table width="90%">
+<tr>
+<td align="center">
+
+### Full-Stack Engineer
+
+Building production-ready products across **web, backend, AI, payments, realtime systems, security, and infrastructure.**
+
+</td>
+</tr>
+</table>
 
 <br/>
 
@@ -79,7 +67,7 @@
 
 <br/>
 
-<table>
+<table width="100%">
 <tr>
 
 <td align="center" width="25%">
@@ -122,11 +110,13 @@ Pointer
 
 ---
 
-# `02 / WHAT I BUILD`
-
 <div align="center">
 
-<table>
+## `02 / WHAT I BUILD`
+
+<br/>
+
+<table width="100%">
 <tr>
 
 <td align="center" width="25%">
@@ -188,33 +178,170 @@ AI Pipelines
 
 ---
 
-# `03 / FEATURED SYSTEMS`
+<div align="center">
 
-| Project                                                             | Description                                                                   | Stack                                     |
-| :------------------------------------------------------------------ | :---------------------------------------------------------------------------- | :---------------------------------------- |
-| 🔐 **[AHS Vault](https://github.com/britsync07-prog/ahs-app)**      | Zero-knowledge biometric vault with encrypted storage & secure device pairing | `Go` `Rust` `Tauri` `React` `Kotlin`      |
-| 📊 **[BritCRM](https://github.com/britsync07-prog/crm)**            | Self-hosted CRM with realtime communication, billing, meetings & MCP          | `Next.js` `Prisma` `PostgreSQL` `LiveKit` |
-| 💳 **[BlackDesck](https://github.com/britsync07-prog/stripepay)**   | Consultation platform with Stripe Connect payouts & 3DS checkout              | `Laravel` `React` `Stripe`                |
-| 📈 **[BritTrade AI](https://github.com/britsync07-prog/britTrade)** | Crypto signal engine with automated execution & paper/live parity             | `Node.js` `CCXT` `Kotlin`                 |
-| 🎬 **[BritTube](https://github.com/britsync07-prog/BritTube)**      | AI video generation pipeline with public API & MCP server                     | `FastAPI` `Next.js` `MoviePy`             |
-| ✉️ **[MailSender](https://github.com/britsync07-prog/mailsender)**  | Multi-tenant email infrastructure with SMTP, DKIM/SPF & warmup                | `TypeScript` `PostgreSQL` `Redis`         |
-| 🎯 **[LeadHunter](https://github.com/britsync07-prog/testingit)**   | B2B lead-generation platform with scraping, newsletters & tracking            | `Puppeteer` `SQLite` `Stripe`             |
+## `03 / FEATURED SYSTEMS`
+
+</div>
+
+<table width="100%">
+<thead>
+<tr>
+<th align="center">PROJECT</th>
+<th align="left">DESCRIPTION</th>
+<th align="center">STACK</th>
+</tr>
+</thead>
+
+<tbody>
+
+<tr>
+<td align="center">
+<a href="https://github.com/britsync07-prog/ahs-app">
+<b>🔐 AHS Vault</b>
+</a>
+</td>
+
+<td>
+Zero-knowledge biometric vault with encrypted storage and secure device pairing.
+</td>
+
+<td align="center">
+<code>Go</code>
+<code>Rust</code>
+<code>Tauri</code>
+<code>React</code>
+<code>Kotlin</code>
+</td>
+</tr>
+
+<tr>
+<td align="center">
+<a href="https://github.com/britsync07-prog/crm">
+<b>📊 BritCRM</b>
+</a>
+</td>
+
+<td>
+Self-hosted CRM with realtime communication, billing, meetings and MCP.
+</td>
+
+<td align="center">
+<code>Next.js</code>
+<code>Prisma</code>
+<code>PostgreSQL</code>
+<code>LiveKit</code>
+</td>
+</tr>
+
+<tr>
+<td align="center">
+<a href="https://github.com/britsync07-prog/stripepay">
+<b>💳 BlackDesck</b>
+</a>
+</td>
+
+<td>
+Consultation platform with Stripe Connect payouts and 3DS checkout.
+</td>
+
+<td align="center">
+<code>Laravel</code>
+<code>React</code>
+<code>Stripe</code>
+</td>
+</tr>
+
+<tr>
+<td align="center">
+<a href="https://github.com/britsync07-prog/britTrade">
+<b>📈 BritTrade AI</b>
+</a>
+</td>
+
+<td>
+Crypto signal engine with automated execution and paper/live parity.
+</td>
+
+<td align="center">
+<code>Node.js</code>
+<code>CCXT</code>
+<code>Kotlin</code>
+</td>
+</tr>
+
+<tr>
+<td align="center">
+<a href="https://github.com/britsync07-prog/BritTube">
+<b>🎬 BritTube</b>
+</a>
+</td>
+
+<td>
+AI video generation pipeline with public API and MCP server.
+</td>
+
+<td align="center">
+<code>FastAPI</code>
+<code>Next.js</code>
+<code>MoviePy</code>
+</td>
+</tr>
+
+<tr>
+<td align="center">
+<a href="https://github.com/britsync07-prog/mailsender">
+<b>✉️ MailSender</b>
+</a>
+</td>
+
+<td>
+Multi-tenant email infrastructure with SMTP, DKIM/SPF and warmup.
+</td>
+
+<td align="center">
+<code>TypeScript</code>
+<code>PostgreSQL</code>
+<code>Redis</code>
+</td>
+</tr>
+
+<tr>
+<td align="center">
+<a href="https://github.com/britsync07-prog/testingit">
+<b>🎯 LeadHunter</b>
+</a>
+</td>
+
+<td>
+B2B lead-generation platform with scraping, newsletters and tracking.
+</td>
+
+<td align="center">
+<code>Puppeteer</code>
+<code>SQLite</code>
+<code>Stripe</code>
+</td>
+</tr>
+
+</tbody>
+</table>
 
 ---
 
-# `04 / TEAM`
-
 <div align="center">
+
+## `04 / TEAM`
+
+<br/>
 
 ### 👑 Team Leader — `Null Pointer`
 
 <a href="https://codeforces.com/profile/rakib_NP">
-
 <img
   src="https://img.shields.io/badge/NULL%20POINTER-0F172A?style=for-the-badge&logo=codeforces&logoColor=38BDF8&label=TEAM&labelColor=0F172A"
   alt="Null Pointer"
 />
-
 </a>
 
 <br/><br/>
@@ -239,17 +366,21 @@ AI Pipelines
 │   ● ONLINE                         [ AC ✓ ]  │
 │                                              │
 └──────────────────────────────────────────────┘
-
 ```
 
 </div>
-05 / TECH STACK
+
 <div align="center">
+
+## `05 / TECH STACK`
+
+<br/>
 
 <img src="https://skillicons.dev/icons?i=ts,js,react,nextjs,nodejs,python,go,rust,php,laravel,tailwind,docker,postgres,mysql,redis,sqlite,nginx,cloudflare,vercel,netlify,puppeteer,prisma,graphql,pm2,git,github,vscode&perline=14" alt="Tech Stack" />
 
-</div> <br/> <table> <tr> <td align="center" width="25%">
+<br/><br/>
 
+<table width="100%"> <tr> <td align="center" width="25%">
 FRONTEND
 
 React
@@ -259,7 +390,6 @@ Tailwind
 Inertia
 
 </td> <td align="center" width="25%">
-
 BACKEND
 
 Node.js
@@ -269,7 +399,6 @@ Laravel
 Python
 
 </td> <td align="center" width="25%">
-
 DATABASE
 
 PostgreSQL
@@ -279,7 +408,6 @@ SQLite
 Prisma
 
 </td> <td align="center" width="25%">
-
 INFRASTRUCTURE
 
 Docker
@@ -288,27 +416,25 @@ Cloudflare
 PM2
 CI/CD
 
-</td> </tr> </table>
-06 / ENGINEERING LOOP
+</td> </tr> </table> </div>
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=rect&height=90&text=IDEATE%20%E2%86%92%20DESIGN%20%E2%86%92%20BUILD%20%E2%86%92%20TEST%20%E2%86%92%20SHIP&fontSize=20&fontColor=F8FAFC&color=020617" alt="Engineering Loop" />
+## `06 / ENGINEERING LOOP`
+
+<br/>
+
+<img width="90%" src="https://capsule-render.vercel.app/api?type=rect&height=90&text=IDEATE%20%E2%86%92%20DESIGN%20%E2%86%92%20BUILD%20%E2%86%92%20TEST%20%E2%86%92%20SHIP&fontSize=20&fontColor=F8FAFC&color=020617" alt="Engineering Loop" />
 
 <br/><br/>
 
 <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=15&duration=1800&pause=800&color=38BDF8&center=true&vCenter=true&width=700&lines=BUILD+IT.;BREAK+IT.;UNDERSTAND+IT.;FIX+IT.;SHIP+IT." alt="Engineering Process" />
 
 </div>
-07 / GITHUB ACTIVITY
-<div align="center"> <a href="https://github.com/r-akib-77">
+<div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=r-akib-77&show_icons=true&hide_border=true&bg_color=020617&title_color=38BDF8&text_color=F8FAFC&icon_color=22D3EE&ring_color=38BDF8&rank_icon=github" width="48%" alt="GitHub Stats" />
+## `07 / GITHUB ACTIVITY`
 
-</a> <a href="https://github.com/r-akib-77">
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=r-akib-77&layout=compact&hide_border=true&bg_color=020617&title_color=38BDF8&text_color=F8FAFC" width="40%" alt="Top Languages" />
-
-</a>
+<br/> <a href="https://github.com/r-akib-77"> <img src="https://github-readme-stats.vercel.app/api?username=r-akib-77&show_icons=true&hide_border=true&bg_color=020617&title_color=38BDF8&text_color=F8FAFC&icon_color=22D3EE&ring_color=38BDF8&rank_icon=github" width="48%" alt="GitHub Stats" /> </a> <a href="https://github.com/r-akib-77"> <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=r-akib-77&layout=compact&hide_border=true&bg_color=020617&title_color=38BDF8&text_color=F8FAFC" width="40%" alt="Top Languages" /> </a>
 
 <br/><br/>
 
@@ -316,22 +442,24 @@ CI/CD
 
 <br/><br/>
 
-<a href="https://github.com/r-akib-77">
-
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=r-akib-77&theme=github_dark" width="95%" alt="GitHub Profile Summary" />
-
-</a> </div>
-08 / CONTACT
+<a href="https://github.com/r-akib-77"> <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=r-akib-77&theme=github_dark" width="95%" alt="GitHub Profile Summary" /> </a> </div>
 
 <div align="center">
+
+## `08 / CONTACT`
+
+<br/>
 
 <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=20&duration=2400&pause=900&color=38BDF8&center=true&vCenter=true&width=700&lines=OPENING+SECURE+CONNECTION...;CONNECTION+ESTABLISHED.;READY+TO+BUILD." alt="Terminal Animation" />
 
 <br/><br/>
 
-<table> <tr> <td>
+<table width="90%"> <tr> <td align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=14&duration=1700&pause=650&color=38BDF8&width=650&height=390&multiline=true&lines=rakib%40dev%3A~%24+whoami%0ARakibul+Hasan+Rakib%0A%0Arakib%40dev%3A~%24+cat+.%2Fprofile%0AFull-Stack+Engineer%0AProduct+Builder%0AAI+%2F+MCP+Engineer%0ACompetitive+Programmer%0A%0Arakib%40dev%3A~%24+echo+%24TEAM%0ANull+Pointer%0A%0Arakib%40dev%3A~%24+echo+%24CODEFORCES%0Arakib_NP%0A%0Arakib%40dev%3A~%24+echo+%24STATUS%0A%E2%97%8F+AVAILABLE%0A%0Arakib%40dev%3A~%24+.%2Fconnect.sh%0AGitHub+%E2%86%92+github.com%2Fr-akib-77%0ACodeforces+%E2%86%92+codeforces.com%2Fprofile%2Frakib_NP%0AEmail+%E2%86%92+rakibulhasanrakib2004%40gmail.com%0A%0Arakib%40dev%3A~%24+%E2%96%88" alt="Rakib Linux Terminal" />
+<img
+  src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=14&duration=1700&pause=650&color=38BDF8&width=700&height=520&center=true&vCenter=true&multiline=true&lines=rakib%40dev%3A~%24+whoami%0ARakibul+Hasan+Rakib%0A%0Arakib%40dev%3A~%24+cat+.%2Fprofile%0AFull-Stack+Engineer%0AProduct+Builder%0AAI+%2F+MCP+Engineer%0ACompetitive+Programmer%0A%0Arakib%40dev%3A~%24+echo+%24TEAM%0ANull+Pointer%0A%0Arakib%40dev%3A~%24+echo+%24CODEFORCES%0Arakib_NP%0A%0Arakib%40dev%3A~%24+echo+%24STATUS%0A%E2%97%8F+AVAILABLE%0A%0Arakib%40dev%3A~%24+.%2Fconnect.sh%0AGitHub+%E2%86%92+github.com%2Fr-akib-77%0ACodeforces+%E2%86%92+codeforces.com%2Fprofile%2Frakib_NP%0AEmail+%E2%86%92+rakibulhasanrakib2004%40gmail.com%0A%0Arakib%40dev%3A~%24+%E2%96%88"
+  alt="Rakib Linux Terminal"
+/>
 
 </td> </tr> </table> <br/> <a href="https://github.com/r-akib-77"> <img src="https://img.shields.io/badge/GITHUB-FFFFFF?style=for-the-badge&logo=github&logoColor=020617" alt="GitHub" /> </a> <a href="https://codeforces.com/profile/rakib_NP"> <img src="https://img.shields.io/badge/CODEFORCES-FFFFFF?style=for-the-badge&logo=codeforces&logoColor=0891B2" alt="Codeforces" /> </a> <a href="mailto:rakibulhasanrakib2004@gmail.com"> <img src="https://img.shields.io/badge/EMAIL-FFFFFF?style=for-the-badge&logo=gmail&logoColor=EA4335" alt="Email" /> </a>
 
