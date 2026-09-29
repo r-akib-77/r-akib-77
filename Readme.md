@@ -271,43 +271,12 @@ B2B lead-generation platform with scraping, newsletters and tracking.
 
 <br/><br/>
 
-<table width="100%"> <tr> <td align="center" width="25%">
-FRONTEND
+<img
+    src="./assets/tech-stack.svg"
+    width="100%"
+    alt="Rakibul Hasan Rakib — Engineering Stack"
+  /></div>
 
-React
-Next.js
-TypeScript
-Tailwind
-Inertia
-
-</td> <td align="center" width="25%">
-BACKEND
-
-Node.js
-Go
-Rust
-Laravel
-Python
-
-</td> <td align="center" width="25%">
-DATABASE
-
-PostgreSQL
-MySQL
-Redis
-SQLite
-Prisma
-
-</td> <td align="center" width="25%">
-INFRASTRUCTURE
-
-Docker
-Nginx
-Cloudflare
-PM2
-CI/CD
-
-</td> </tr> </table> </div>
 <div align="center">
 
 ## `06 / ENGINEERING LOOP`
@@ -353,7 +322,7 @@ CI/CD
   alt="Rakib Linux Terminal"
 />
 
-</td> </tr> </table> <br/> <a href="https://github.com/r-akib-77"> <img src="https://img.shields.io/badge/GITHUB-FFFFFF?style=for-the-badge&logo=github&logoColor=020617" alt="GitHub" /> </a> <a href="https://codeforces.com/profile/rakib_NP"> <img src="https://img.shields.io/badge/CODEFORCES-FFFFFF?style=for-the-badge&logo=codeforces&logoColor=0891B2" alt="Codeforces" /> </a> <a href="mailto:rakibulhasanrakib2004@gmail.com"> <img src="https://img.shields.io/badge/EMAIL-FFFFFF?style=for-the-badge&logo=gmail&logoColor=EA4335" alt="Email" /> </a>
+</td> </tr> </table> <br/>
 
 <br/><br/>
 

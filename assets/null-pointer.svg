@@ -1,91 +1,410 @@
-<svg width="700" height="300" viewBox="0 0 700 300" xmlns="http://www.w3.org/2000/svg">
-  <rect width="700" height="300" rx="12" fill="#020617"/>
+<svg
+  width="700"
+  height="330"
+  viewBox="0 0 700 330"
+  xmlns="http://www.w3.org/2000/svg"
+>
 
-  <rect
-    x="2"
-    y="2"
-    width="696"
-    height="296"
-    rx="10"
-    fill="none"
-    stroke="#164E63"
-    stroke-width="2"
-  />
+<defs>
 
+  <linearGradient id="border" x1="0" x2="1">
+    <stop offset="0%" stop-color="#0EA5E9"/>
+    <stop offset="50%" stop-color="#38BDF8"/>
+    <stop offset="100%" stop-color="#14B8A6"/>
+  </linearGradient>
+
+  <filter id="glow" x="-100%" y="-100%" width="300%" height="300%">
+    <feGaussianBlur stdDeviation="3" result="blur"/>
+    <feMerge>
+      <feMergeNode in="blur"/>
+      <feMergeNode in="SourceGraphic"/>
+    </feMerge>
+  </filter>
+
+  <!-- =========================
+       TYPEWRITER CLIPS
+  ========================== -->
+
+  <clipPath id="line1">
+    <rect x="80" y="105" width="0" height="25">
+      <animate
+        attributeName="width"
+        values="0;190;190;0"
+        keyTimes="0;.15;.27;1"
+        dur="10s"
+        repeatCount="indefinite"
+      />
+    </rect>
+  </clipPath>
+
+  <clipPath id="line2">
+    <rect x="80" y="140" width="0" height="25">
+      <animate
+        attributeName="width"
+        values="0;0;0;205;205;0"
+        keyTimes="0;.27;.32;.45;.55;1"
+        dur="10s"
+        repeatCount="indefinite"
+      />
+    </rect>
+  </clipPath>
+
+  <clipPath id="line3">
+    <rect x="80" y="175" width="0" height="25">
+      <animate
+        attributeName="width"
+        values="0;0;0;0;0;190;190;0"
+        keyTimes="0;.45;.50;.55;.60;.73;.83;1"
+        dur="10s"
+        repeatCount="indefinite"
+      />
+    </rect>
+  </clipPath>
+
+  <clipPath id="line4">
+    <rect x="80" y="210" width="0" height="25">
+      <animate
+        attributeName="width"
+        values="0;0;0;0;0;0;0;75;75;0"
+        keyTimes="0;.55;.60;.65;.70;.73;.80;.87;.92;1"
+        dur="10s"
+        repeatCount="indefinite"
+      />
+    </rect>
+  </clipPath>
+
+</defs>
+
+
+<!-- =========================
+     BACKGROUND
+========================== -->
+
+<rect
+  width="700"
+  height="330"
+  rx="18"
+  fill="#0B1017"
+/>
+
+
+<!-- =========================
+     TERMINAL
+========================== -->
+
+<rect
+  x="13"
+  y="19"
+  width="674"
+  height="292"
+  rx="12"
+  fill="#020617"
+  stroke="#164E63"
+  stroke-width="2"
+/>
+
+
+<!-- =========================
+     HEADER
+========================== -->
+
+<circle cx="38" cy="40" r="6" fill="#EF4444"/>
+<circle cx="58" cy="40" r="6" fill="#F59E0B"/>
+<circle cx="78" cy="40" r="6" fill="#22C55E"/>
+
+<text
+  x="105"
+  y="45"
+  fill="#64748B"
+  font-family="Fira Code, Courier New, monospace"
+  font-size="12"
+>
+  null-pointer@judge
+</text>
+
+
+<!-- =========================
+     TITLE
+========================== -->
+
+<text
+  x="350"
+  y="72"
+  text-anchor="middle"
+  fill="#38BDF8"
+  font-family="Fira Code, Courier New, monospace"
+  font-size="21"
+  font-weight="800"
+  filter="url(#glow)"
+>
+  NULL POINTER
+</text>
+
+
+<!-- =========================
+     LINE 1
+========================== -->
+
+<g clip-path="url(#line1)">
   <text
-    x="350"
-    y="55"
-    text-anchor="middle"
-    fill="#38BDF8"
-    font-family="JetBrains Mono, Fira Code, monospace"
-    font-size="22"
-    font-weight="700"
-  >
-    NULL POINTER
-  </text>
-
-  <text
-    x="70"
-    y="105"
-    fill="#CBD5E1"
-    font-family="JetBrains Mono, Fira Code, monospace"
+    x="80"
+    y="122"
+    fill="#F8FAFC"
+    font-family="Fira Code, Courier New, monospace"
     font-size="17"
   >
     $ solve --problem
   </text>
+</g>
 
+
+<!-- Cursor 1 -->
+
+<rect
+  x="78"
+  y="106"
+  width="8"
+  height="20"
+  fill="#22D3EE"
+>
+  <animate
+    attributeName="x"
+    values="78;268;268;78"
+    keyTimes="0;.15;.27;1"
+    dur="10s"
+    repeatCount="indefinite"
+  />
+
+  <animate
+    attributeName="opacity"
+    values="1;1;0;0"
+    keyTimes="0;.15;.27;1"
+    dur="10s"
+    repeatCount="indefinite"
+  />
+</rect>
+
+
+<!-- =========================
+     LINE 2
+========================== -->
+
+<g clip-path="url(#line2)">
   <text
-    x="70"
-    y="140"
-    fill="#CBD5E1"
-    font-family="JetBrains Mono, Fira Code, monospace"
+    x="80"
+    y="157"
+    fill="#F8FAFC"
+    font-family="Fira Code, Courier New, monospace"
     font-size="17"
   >
     $ compile --optimized
   </text>
+</g>
 
+
+<!-- Cursor 2 -->
+
+<rect
+  x="78"
+  y="141"
+  width="8"
+  height="20"
+  fill="#22D3EE"
+>
+  <animate
+    attributeName="x"
+    values="78;78;78;283;283;78"
+    keyTimes="0;.27;.32;.45;.55;1"
+    dur="10s"
+    repeatCount="indefinite"
+  />
+
+  <animate
+    attributeName="opacity"
+    values="0;0;1;1;0;0"
+    keyTimes="0;.27;.32;.45;.55;1"
+    dur="10s"
+    repeatCount="indefinite"
+  />
+</rect>
+
+
+<!-- =========================
+     LINE 3
+========================== -->
+
+<g clip-path="url(#line3)">
   <text
-    x="70"
-    y="175"
-    fill="#CBD5E1"
-    font-family="JetBrains Mono, Fira Code, monospace"
+    x="80"
+    y="192"
+    fill="#F8FAFC"
+    font-family="Fira Code, Courier New, monospace"
     font-size="17"
   >
     $ debug --until=AC
   </text>
+</g>
 
+
+<!-- Cursor 3 -->
+
+<rect
+  x="78"
+  y="176"
+  width="8"
+  height="20"
+  fill="#22D3EE"
+>
+  <animate
+    attributeName="x"
+    values="78;78;78;78;78;268;268;78"
+    keyTimes="0;.45;.50;.55;.60;.73;.83;1"
+    dur="10s"
+    repeatCount="indefinite"
+  />
+
+  <animate
+    attributeName="opacity"
+    values="0;0;0;0;1;1;0;0"
+    keyTimes="0;.45;.50;.55;.60;.73;.83;1"
+    dur="10s"
+    repeatCount="indefinite"
+  />
+</rect>
+
+
+<!-- =========================
+     LINE 4
+========================== -->
+
+<g clip-path="url(#line4)">
   <text
-    x="70"
-    y="210"
-    fill="#CBD5E1"
-    font-family="JetBrains Mono, Fira Code, monospace"
+    x="80"
+    y="227"
+    fill="#F8FAFC"
+    font-family="Fira Code, Courier New, monospace"
     font-size="17"
   >
     $ submit
   </text>
+</g>
 
-  <circle cx="73" cy="250" r="6" fill="#22C55E"/>
 
-  <text
-    x="90"
-    y="256"
-    fill="#22C55E"
-    font-family="JetBrains Mono, Fira Code, monospace"
-    font-size="16"
-    font-weight="700"
-  >
-    ONLINE
-  </text>
+<!-- Cursor 4 -->
 
-  <text
-    x="610"
-    y="256"
-    text-anchor="end"
-    fill="#22C55E"
-    font-family="JetBrains Mono, Fira Code, monospace"
-    font-size="16"
-    font-weight="700"
-  >
-    [ AC ✓ ]
-  </text>
+<rect
+  x="78"
+  y="211"
+  width="8"
+  height="20"
+  fill="#22D3EE"
+>
+  <animate
+    attributeName="x"
+    values="78;78;78;78;78;78;78;153;153;78"
+    keyTimes="0;.55;.60;.65;.70;.73;.80;.87;.92;1"
+    dur="10s"
+    repeatCount="indefinite"
+  />
+
+  <animate
+    attributeName="opacity"
+    values="0;0;0;0;0;0;1;1;0;0"
+    keyTimes="0;.55;.60;.65;.70;.73;.80;.87;.92;1"
+    dur="10s"
+    repeatCount="indefinite"
+  />
+</rect>
+
+
+<!-- =========================
+     AC RESULT
+     Appears ONLY after submit
+========================== -->
+
+<text
+  x="350"
+  y="275"
+  text-anchor="middle"
+  fill="#22C55E"
+  font-family="Fira Code, Courier New, monospace"
+  font-size="22"
+  font-weight="800"
+  filter="url(#glow)"
+>
+  [ AC ✓ ]
+
+  <animate
+    attributeName="opacity"
+    values="0;0;0;0;0;0;0;0;1;1;0"
+    keyTimes="0;.55;.60;.65;.70;.73;.80;.87;.92;.98;1"
+    dur="10s"
+    repeatCount="indefinite"
+  />
+</text>
+
+
+<!-- =========================
+     ONLINE STATUS
+========================== -->
+
+<circle
+  cx="80"
+  cy="275"
+  r="6"
+  fill="#22C55E"
+  filter="url(#glow)"
+>
+  <animate
+    attributeName="r"
+    values="5;7;5"
+    dur="1.5s"
+    repeatCount="indefinite"
+  />
+</circle>
+
+<text
+  x="98"
+  y="281"
+  fill="#22C55E"
+  font-family="Fira Code, Courier New, monospace"
+  font-size="14"
+  font-weight="700"
+>
+  ONLINE
+</text>
+
+
+<!-- =========================
+     FOOTER
+========================== -->
+
+<text
+  x="620"
+  y="281"
+  text-anchor="end"
+  fill="#475569"
+  font-family="Fira Code, Courier New, monospace"
+  font-size="11"
+>
+  NULL POINTER
+</text>
+
+
+<!-- =========================
+     BORDER
+========================== -->
+
+<rect
+  x="1.5"
+  y="1.5"
+  width="697"
+  height="327"
+  rx="19"
+  fill="none"
+  stroke="url(#border)"
+  stroke-opacity=".35"
+  stroke-width="1.5"
+/>
+
 </svg>

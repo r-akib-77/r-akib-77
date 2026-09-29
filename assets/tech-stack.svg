@@ -1,0 +1,593 @@
+<svg
+  width="1200"
+  height="360"
+  viewBox="0 0 1200 360"
+  xmlns="http://www.w3.org/2000/svg"
+>
+
+<defs>
+
+  <linearGradient id="cyan" x1="0" x2="1">
+    <stop offset="0%" stop-color="#0EA5E9"/>
+    <stop offset="50%" stop-color="#38BDF8"/>
+    <stop offset="100%" stop-color="#22D3EE"/>
+  </linearGradient>
+
+  <linearGradient id="teal" x1="0" x2="1">
+    <stop offset="0%" stop-color="#06B6D4"/>
+    <stop offset="100%" stop-color="#14B8A6"/>
+  </linearGradient>
+
+  <linearGradient id="green" x1="0" x2="1">
+    <stop offset="0%" stop-color="#14B8A6"/>
+    <stop offset="100%" stop-color="#22C55E"/>
+  </linearGradient>
+
+  <filter id="glow" x="-100%" y="-100%" width="300%" height="300%">
+    <feGaussianBlur stdDeviation="4" result="blur"/>
+    <feMerge>
+      <feMergeNode in="blur"/>
+      <feMergeNode in="SourceGraphic"/>
+    </feMerge>
+  </filter>
+
+  <pattern
+    id="grid"
+    width="40"
+    height="40"
+    patternUnits="userSpaceOnUse"
+  >
+    <path
+      d="M40 0H0V40"
+      fill="none"
+      stroke="#164E63"
+      stroke-opacity=".13"
+    />
+  </pattern>
+
+</defs>
+
+
+<!-- BACKGROUND -->
+
+<rect
+  width="1200"
+  height="360"
+  rx="24"
+  fill="#020617"
+/>
+
+<rect
+  width="1200"
+  height="360"
+  rx="24"
+  fill="url(#grid)"
+/>
+
+
+<!-- HEADER -->
+
+<text
+  x="600"
+  y="45"
+  text-anchor="middle"
+  fill="#38BDF8"
+  font-family="Fira Code, monospace"
+  font-size="14"
+  font-weight="700"
+  letter-spacing="2"
+>
+  RAKIB@DEV
+</text>
+
+<text
+  x="600"
+  y="78"
+  text-anchor="middle"
+  fill="#F8FAFC"
+  font-family="Inter, Arial, sans-serif"
+  font-size="28"
+  font-weight="800"
+>
+  ENGINEERING STACK
+</text>
+
+<text
+  x="600"
+  y="101"
+  text-anchor="middle"
+  fill="#64748B"
+  font-family="Fira Code, monospace"
+  font-size="12"
+>
+  Technologies I use to design, build and ship systems
+</text>
+
+
+<!-- ==========================================
+     FRONTEND
+========================================== -->
+
+<rect
+  x="35"
+  y="130"
+  width="270"
+  height="180"
+  rx="16"
+  fill="#0F172A"
+  stroke="#164E63"
+  stroke-width="1.5"
+/>
+
+<rect
+  x="35"
+  y="130"
+  width="270"
+  height="4"
+  rx="2"
+  fill="url(#cyan)"
+  filter="url(#glow)"
+/>
+
+<text
+  x="60"
+  y="170"
+  fill="#38BDF8"
+  font-family="Fira Code, monospace"
+  font-size="18"
+  font-weight="700"
+>
+  FRONTEND
+</text>
+
+<line
+  x1="60"
+  y1="185"
+  x2="280"
+  y2="185"
+  stroke="#164E63"
+/>
+
+<text
+  x="60"
+  y="215"
+  fill="#F8FAFC"
+  font-family="Fira Code, monospace"
+  font-size="16"
+  font-weight="600"
+>
+  React
+</text>
+
+<text
+  x="165"
+  y="215"
+  fill="#BAE6FD"
+  font-family="Fira Code, monospace"
+  font-size="16"
+  font-weight="600"
+>
+  Next.js
+</text>
+
+<text
+  x="60"
+  y="248"
+  fill="#F8FAFC"
+  font-family="Fira Code, monospace"
+  font-size="16"
+  font-weight="600"
+>
+  TypeScript
+</text>
+
+<text
+  x="60"
+  y="281"
+  fill="#BAE6FD"
+  font-family="Fira Code, monospace"
+  font-size="16"
+  font-weight="600"
+>
+  Tailwind
+</text>
+
+<text
+  x="165"
+  y="281"
+  fill="#F8FAFC"
+  font-family="Fira Code, monospace"
+  font-size="16"
+  font-weight="600"
+>
+  Inertia
+</text>
+
+
+<!-- ==========================================
+     BACKEND
+========================================== -->
+
+<rect
+  x="320"
+  y="130"
+  width="270"
+  height="180"
+  rx="16"
+  fill="#0F172A"
+  stroke="#164E63"
+  stroke-width="1.5"
+/>
+
+<rect
+  x="320"
+  y="130"
+  width="270"
+  height="4"
+  rx="2"
+  fill="url(#teal)"
+  filter="url(#glow)"
+/>
+
+<text
+  x="345"
+  y="170"
+  fill="#22D3EE"
+  font-family="Fira Code, monospace"
+  font-size="18"
+  font-weight="700"
+>
+  BACKEND
+</text>
+
+<line
+  x1="345"
+  y1="185"
+  x2="565"
+  y2="185"
+  stroke="#164E63"
+/>
+
+<text
+  x="345"
+  y="215"
+  fill="#F8FAFC"
+  font-family="Fira Code, monospace"
+  font-size="16"
+  font-weight="600"
+>
+  Node.js
+</text>
+
+<text
+  x="470"
+  y="215"
+  fill="#BAE6FD"
+  font-family="Fira Code, monospace"
+  font-size="16"
+  font-weight="600"
+>
+  Go
+</text>
+
+<text
+  x="345"
+  y="248"
+  fill="#F8FAFC"
+  font-family="Fira Code, monospace"
+  font-size="16"
+  font-weight="600"
+>
+  Rust
+</text>
+
+<text
+  x="470"
+  y="248"
+  fill="#BAE6FD"
+  font-family="Fira Code, monospace"
+  font-size="16"
+  font-weight="600"
+>
+  Laravel
+</text>
+
+<text
+  x="345"
+  y="281"
+  fill="#F8FAFC"
+  font-family="Fira Code, monospace"
+  font-size="16"
+  font-weight="600"
+>
+  Python
+</text>
+
+
+<!-- ==========================================
+     DATABASE
+========================================== -->
+
+<rect
+  x="605"
+  y="130"
+  width="270"
+  height="180"
+  rx="16"
+  fill="#0F172A"
+  stroke="#164E63"
+  stroke-width="1.5"
+/>
+
+<rect
+  x="605"
+  y="130"
+  width="270"
+  height="4"
+  rx="2"
+  fill="url(#green)"
+  filter="url(#glow)"
+/>
+
+<text
+  x="630"
+  y="170"
+  fill="#2DD4BF"
+  font-family="Fira Code, monospace"
+  font-size="18"
+  font-weight="700"
+>
+  DATABASE
+</text>
+
+<line
+  x1="630"
+  y1="185"
+  x2="850"
+  y2="185"
+  stroke="#164E63"
+/>
+
+<text
+  x="630"
+  y="215"
+  fill="#F8FAFC"
+  font-family="Fira Code, monospace"
+  font-size="16"
+  font-weight="600"
+>
+  PostgreSQL
+</text>
+
+<text
+  x="630"
+  y="248"
+  fill="#BAE6FD"
+  font-family="Fira Code, monospace"
+  font-size="16"
+  font-weight="600"
+>
+  MySQL
+</text>
+
+<text
+  x="750"
+  y="248"
+  fill="#F8FAFC"
+  font-family="Fira Code, monospace"
+  font-size="16"
+  font-weight="600"
+>
+  Redis
+</text>
+
+<text
+  x="630"
+  y="281"
+  fill="#BAE6FD"
+  font-family="Fira Code, monospace"
+  font-size="16"
+  font-weight="600"
+>
+  SQLite
+</text>
+
+<text
+  x="750"
+  y="281"
+  fill="#F8FAFC"
+  font-family="Fira Code, monospace"
+  font-size="16"
+  font-weight="600"
+>
+  Prisma
+</text>
+
+
+<!-- ==========================================
+     INFRASTRUCTURE
+========================================== -->
+
+<rect
+  x="890"
+  y="130"
+  width="275"
+  height="180"
+  rx="16"
+  fill="#0F172A"
+  stroke="#164E63"
+  stroke-width="1.5"
+/>
+
+<rect
+  x="890"
+  y="130"
+  width="275"
+  height="4"
+  rx="2"
+  fill="url(#cyan)"
+  filter="url(#glow)"
+/>
+
+<text
+  x="915"
+  y="170"
+  fill="#38BDF8"
+  font-family="Fira Code, monospace"
+  font-size="18"
+  font-weight="700"
+>
+  INFRASTRUCTURE
+</text>
+
+<line
+  x1="915"
+  y1="185"
+  x2="1140"
+  y2="185"
+  stroke="#164E63"
+/>
+
+<text
+  x="915"
+  y="215"
+  fill="#F8FAFC"
+  font-family="Fira Code, monospace"
+  font-size="16"
+  font-weight="600"
+>
+  Docker
+</text>
+
+<text
+  x="1030"
+  y="215"
+  fill="#BAE6FD"
+  font-family="Fira Code, monospace"
+  font-size="16"
+  font-weight="600"
+>
+  Nginx
+</text>
+
+<text
+  x="915"
+  y="248"
+  fill="#F8FAFC"
+  font-family="Fira Code, monospace"
+  font-size="16"
+  font-weight="600"
+>
+  Cloudflare
+</text>
+
+<text
+  x="1030"
+  y="248"
+  fill="#BAE6FD"
+  font-family="Fira Code, monospace"
+  font-size="16"
+  font-weight="600"
+>
+  PM2
+</text>
+
+<text
+  x="915"
+  y="281"
+  fill="#F8FAFC"
+  font-family="Fira Code, monospace"
+  font-size="16"
+  font-weight="600"
+>
+  CI/CD
+</text>
+
+
+<!-- ==========================================
+     ANIMATED STATUS LIGHTS
+========================================== -->
+
+<circle
+  cx="285"
+  cy="151"
+  r="4"
+  fill="#22C55E"
+  filter="url(#glow)"
+>
+  <animate
+    attributeName="opacity"
+    values="1;.25;1"
+    dur="2s"
+    repeatCount="indefinite"
+  />
+</circle>
+
+<circle
+  cx="570"
+  cy="151"
+  r="4"
+  fill="#22C55E"
+  filter="url(#glow)"
+>
+  <animate
+    attributeName="opacity"
+    values=".25;1;.25"
+    dur="2.3s"
+    repeatCount="indefinite"
+  />
+</circle>
+
+<circle
+  cx="855"
+  cy="151"
+  r="4"
+  fill="#22C55E"
+  filter="url(#glow)"
+>
+  <animate
+    attributeName="opacity"
+    values="1;.25;1"
+    dur="1.7s"
+    repeatCount="indefinite"
+  />
+</circle>
+
+
+<!-- ==========================================
+     FOOTER
+========================================== -->
+
+<text
+  x="600"
+  y="340"
+  text-anchor="middle"
+  fill="#64748B"
+  font-family="Fira Code, monospace"
+  font-size="12"
+>
+  FRONTEND
+  <tspan fill="#38BDF8"> → </tspan>
+  BACKEND
+  <tspan fill="#22D3EE"> → </tspan>
+  DATABASE
+  <tspan fill="#2DD4BF"> → </tspan>
+  INFRASTRUCTURE
+</text>
+
+
+<!-- BORDER -->
+
+<rect
+  x="1.5"
+  y="1.5"
+  width="1197"
+  height="357"
+  rx="24"
+  fill="none"
+  stroke="url(#cyan)"
+  stroke-opacity=".45"
+  stroke-width="1.5"
+/>
+
+</svg>
