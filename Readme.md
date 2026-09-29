@@ -1,21 +1,41 @@
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=300&color=0:050816,45:111827,100:7c3aed&text=MUSFIQUR%20RAHMAN%20SAIMON&fontSize=42&fontColor=ffffff&fontAlignY=35&desc=FULL-STACK%20PRODUCT%20ENGINEER%20%E2%80%A2%20SYSTEMS%20BUILDER%20%E2%80%A2%20AI%20ENGINEER&descAlignY=55&descSize=15&animation=fadeIn" />
+<img
+width="100%"
+src="https://capsule-render.vercel.app/api?type=waving&height=300&color=0:020617,45:0F172A,75:164E63,100:0EA5E9&text=RAKIBUL%20HASAN%20RAKIB&fontSize=44&fontColor=F8FAFC&fontAlignY=35&desc=FULL-STACK%20ENGINEER%20%E2%80%A2%20PRODUCT%20BUILDER%20%E2%80%A2%20AI%20ENGINEER&descAlignY=55&descSize=16&descColor=BAE6FD&animation=fadeIn"
+/>
 
 <br/>
 
-<a href="https://github.com/britsync07-prog">
+<a href="https://github.com/r-akib-77">
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=20&duration=2800&pause=900&color=A78BFA&center=true&vCenter=true&width=850&lines=I+BUILD+COMPLETE+PRODUCTS%2C+NOT+JUST+FEATURES.;FULL-STACK+%E2%86%92+INFRASTRUCTURE+%E2%86%92+PRODUCTION;PAYMENTS+%7C+REALTIME+%7C+AI+%7C+SECURITY+%7C+AUTOMATION;TURNING+COMPLEX+SYSTEMS+INTO+WORKING+PRODUCTS." alt="Typing SVG" />
+<img
+src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=20&duration=2800&pause=900&color=38BDF8&center=true&vCenter=true&width=850&lines=I+BUILD+COMPLETE+PRODUCTS%2C+NOT+JUST+FEATURES.;FULL-STACK+%E2%86%92+BACKEND+%E2%86%92+INFRASTRUCTURE;AI+%7C+REALTIME+%7C+PAYMENTS+%7C+SECURITY;TURNING+IDEAS+INTO+PRODUCTION+SYSTEMS."
+alt="Typing SVG"
+/>
 
 </a>
 
 <br/><br/>
 
-<img src="https://img.shields.io/badge/FULL--STACK-7C3AED?style=for-the-badge" alt="Full Stack" />
-<img src="https://img.shields.io/badge/PRODUCT-06B6D4?style=for-the-badge" alt="Product" />
-<img src="https://img.shields.io/badge/AI%20%26%20MCP-EC4899?style=for-the-badge" alt="AI and MCP" />
-<img src="https://img.shields.io/badge/OPEN%20TO%20BUILD-F59E0B?style=for-the-badge" alt="Open to Build" />
+<img src="https://img.shields.io/badge/FULL--STACK-0EA5E9?style=for-the-badge" alt="Full Stack"/>
+<img src="https://img.shields.io/badge/PRODUCT-06B6D4?style=for-the-badge" alt="Product"/>
+<img src="https://img.shields.io/badge/AI%20%26%20MCP-14B8A6?style=for-the-badge" alt="AI and MCP"/>
+<img src="https://img.shields.io/badge/OPEN%20TO%20BUILD-22C55E?style=for-the-badge" alt="Open to Build"/>
+
+<br/><br/>
+
+<a href="https://github.com/r-akib-77">
+<img src="https://img.shields.io/badge/GitHub-r--akib--77-0F172A?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
+</a>
+
+<a href="https://codeforces.com/profile/rakib_NP">
+<img src="https://img.shields.io/badge/Codeforces-rakib__NP-0F172A?style=for-the-badge&logo=codeforces&logoColor=38BDF8" alt="Codeforces"/>
+</a>
+
+<a href="mailto:rakibulhasanrakib2004@gmail.com">
+<img src="https://img.shields.io/badge/Gmail-rakibulhasanrakib2004%40gmail.com-0F172A?style=for-the-badge&logo=gmail&logoColor=38BDF8" alt="Email"/>
+</a>
 
 </div>
 
@@ -28,36 +48,36 @@
 
 <td width="60%" valign="top">
 
-### I build things that survive production.
+### I build products, not just interfaces.
 
-I'm a **Full-Stack Product Engineer** focused on turning complex ideas into production-ready systems.
+I'm a **Full-Stack Engineer** focused on building complete software systems — from frontend architecture and APIs to databases, infrastructure, automation and deployment.
 
 ```text
 Idea
- ↓
+  ↓
 Architecture
- ↓
+  ↓
 Build
- ↓
+  ↓
 Test
- ↓
+  ↓
 Deploy
- ↓
+  ↓
 Monitor
- ↓
+  ↓
 Scale
 ```
 
-I work across:
+I enjoy solving problems around:
 
 - Product engineering
 - SaaS platforms
-- Payment systems
-- Realtime applications
-- AI agents & MCP
-- Security systems
+- AI applications
+- Realtime systems
+- Payment infrastructure
 - Automation
-- Infrastructure
+- Developer tooling
+- Backend architecture
 
 </td>
 
@@ -65,7 +85,7 @@ I work across:
 
 ```text
 ╭────────────────────────────╮
-│     ENGINEER PROFILE       │
+│       RAKIBUL HASAN        │
 ├────────────────────────────┤
 │                            │
 │ Role                       │
@@ -77,8 +97,11 @@ I work across:
 │ Focus                      │
 │ → Product Engineering      │
 │                            │
-│ Team Leader                │
-│ → Null Pointer (CP)        │
+│ CP Team                    │
+│ → Null Pointer             │
+│                            │
+│ Codeforces                │
+│ → rakib_NP                 │
 │                            │
 │ Status                     │
 │ → BUILDING                 │
@@ -106,10 +129,10 @@ I work across:
 
 **SECURITY**
 
-Zero-Knowledge
 Encryption
+Authentication
 WebAuthn
-Biometrics
+Secure Systems
 
 </td>
 
@@ -120,9 +143,9 @@ Biometrics
 **PAYMENTS**
 
 Stripe
-Connect
-3DS / SCA
 Webhooks
+3DS / SCA
+Transactions
 
 </td>
 
@@ -133,9 +156,9 @@ Webhooks
 **REALTIME**
 
 Socket.io
+WebSockets
 LiveKit
-Events
-Queues
+Event Systems
 
 </td>
 
@@ -146,7 +169,7 @@ Queues
 **AI SYSTEMS**
 
 MCP
-Agents
+AI Agents
 Automation
 AI Pipelines
 
@@ -179,22 +202,24 @@ AI Pipelines
 
 ### 👑 Team Leader — `Null Pointer`
 
-<br/>
+<a href="https://codeforces.com/profile/rakib_NP">
 
-<img src="https://img.shields.io/badge/TEAM-NULL%20POINTER-7C3AED?style=for-the-badge&logo=codeforces&logoColor=white" alt="Null Pointer" />
+<img src="https://img.shields.io/badge/Codeforces-rakib__NP-0F172A?style=for-the-badge&logo=codeforces&logoColor=38BDF8" alt="Codeforces rakib_NP"/>
+
+</a>
 
 <br/><br/>
 
-**Competitive Programming · Problem Solving · Algorithms · Data Structures**
+**Competitive Programming · Algorithms · Data Structures · Problem Solving**
 
 <br/>
 
 ```text
 ╭────────────────────────────────────────────╮
 │                                            │
-│              NULL POINTER                  │
+│               NULL POINTER                 │
 │                                            │
-│       THINK  →  CODE  →  DEBUG  →  AC     │
+│        THINK → CODE → DEBUG → AC           │
 │                                            │
 ╰────────────────────────────────────────────╯
 ```
@@ -207,7 +232,10 @@ AI Pipelines
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=ts,js,react,nextjs,nodejs,python,go,rust,php,laravel,tailwind,docker,postgres,mysql,redis,sqlite,nginx,cloudflare,vercel,netlify,puppeteer,prisma,graphql,pm2,git,github,vscode&perline=14" alt="Tech Stack" />
+<img
+src="https://skillicons.dev/icons?i=ts,js,react,nextjs,nodejs,python,go,rust,php,laravel,tailwind,docker,postgres,mysql,redis,sqlite,nginx,cloudflare,vercel,netlify,puppeteer,prisma,graphql,pm2,git,github,vscode&perline=14"
+alt="Tech Stack"
+/>
 
 </div>
 
@@ -273,11 +301,17 @@ CI/CD
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=rect&height=90&text=IDEATE%20%E2%86%92%20DESIGN%20%E2%86%92%20BUILD%20%E2%86%92%20TEST%20%E2%86%92%20SHIP&fontSize=20&fontColor=ffffff&color=111827" alt="Engineering Loop" />
+<img
+src="https://capsule-render.vercel.app/api?type=rect&height=90&text=IDEATE%20%E2%86%92%20DESIGN%20%E2%86%92%20BUILD%20%E2%86%92%20TEST%20%E2%86%92%20SHIP&fontSize=20&fontColor=F8FAFC&color=020617"
+alt="Engineering Loop"
+/>
 
 <br/><br/>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=15&duration=1800&pause=800&color=94A3B8&center=true&vCenter=true&width=700&lines=BUILD+IT.;BREAK+IT.;UNDERSTAND+IT.;FIX+IT.;SHIP+IT." alt="Engineering Process" />
+<img
+src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=15&duration=1800&pause=800&color=38BDF8&center=true&vCenter=true&width=700&lines=BUILD+IT.;BREAK+IT.;UNDERSTAND+IT.;FIX+IT.;SHIP+IT."
+alt="Engineering Process"
+/>
 
 </div>
 
@@ -287,13 +321,49 @@ CI/CD
 
 <div align="center">
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=britsync07-prog&bg_color=050816&color=a78bfa&line=8b5cf6&point=ffffff&area=true&hide_border=true" width="95%" alt="GitHub Activity Graph" />
+### `> github.com/r-akib-77`
+
+<br/>
+
+<a href="https://github.com/r-akib-77">
+
+<img
+src="https://github-readme-stats.vercel.app/api?username=r-akib-77&show_icons=true&hide_border=true&bg_color=020617&title_color=38BDF8&text_color=CBD5E1&icon_color=06B6D4&rank_icon=github"
+width="49%"
+alt="GitHub Stats"
+/>
+
+</a>
+
+<a href="https://github.com/r-akib-77">
+
+<img
+src="https://github-readme-stats.vercel.app/api/top-langs/?username=r-akib-77&layout=compact&hide_border=true&bg_color=020617&title_color=38BDF8&text_color=CBD5E1"
+width="41%"
+alt="Top Languages"
+/>
+
+</a>
 
 <br/><br/>
 
-<img src="https://github-readme-stats.vercel.app/api?username=britsync07-prog&show_icons=true&hide_border=true&bg_color=050816&title_color=A78BFA&text_color=CBD5E1&icon_color=8B5CF6&rank_icon=github" width="49%" alt="GitHub Stats" />
+<img
+src="https://streak-stats.demolab.com?user=r-akib-77&theme=dark&hide_border=true&background=020617&stroke=0EA5E9&ring=38BDF8&fire=22C55E&currStreakLabel=38BDF8"
+width="75%"
+alt="GitHub Streak"
+/>
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=britsync07-prog&layout=compact&hide_border=true&bg_color=050816&title_color=A78BFA&text_color=CBD5E1" width="41%" alt="Top Languages" />
+<br/><br/>
+
+<a href="https://github.com/r-akib-77">
+
+<img
+src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=r-akib-77&theme=github_dark"
+width="95%"
+alt="GitHub Profile Summary"
+/>
+
+</a>
 
 </div>
 
@@ -303,40 +373,83 @@ CI/CD
 
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=22&duration=2400&pause=1000&color=A78BFA&center=true&vCenter=true&width=700&lines=HAVE+A+HARD+PROBLEM%3F;LET'S+BUILD+THE+SYSTEM.;TURN+IDEAS+INTO+PRODUCTION." alt="Contact Animation" />
+<img
+src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=22&duration=2400&pause=1000&color=38BDF8&center=true&vCenter=true&width=700&lines=HAVE+A+HARD+PROBLEM%3F;LET'S+BUILD+THE+SYSTEM.;TURN+IDEAS+INTO+PRODUCTION."
+alt="Contact Animation"
+/>
 
 <br/><br/>
 
-<a href="mailto:saimon@ascentraconsulting.co.uk">
+<a href="mailto:rakibulhasanrakib2004@gmail.com">
 
-<img src="https://img.shields.io/badge/EMAIL-saimon%40ascentraconsulting.co.uk-7C3AED?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+<img
+src="https://img.shields.io/badge/EMAIL-rakibulhasanrakib2004%40gmail.com-0F172A?style=for-the-badge&logo=gmail&logoColor=38BDF8"
+alt="Email"
+/>
 
 </a>
 
-<a href="https://github.com/britsync07-prog">
+<a href="https://github.com/r-akib-77">
 
-<img src="https://img.shields.io/badge/GITHUB-britsync07--prog-111827?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+<img
+src="https://img.shields.io/badge/GITHUB-r--akib--77-0F172A?style=for-the-badge&logo=github&logoColor=38BDF8"
+alt="GitHub"
+/>
+
+</a>
+
+<a href="https://codeforces.com/profile/rakib_NP">
+
+<img
+src="https://img.shields.io/badge/CODEFORCES-rakib__NP-0F172A?style=for-the-badge&logo=codeforces&logoColor=38BDF8"
+alt="Codeforces"
+/>
 
 </a>
 
 <br/><br/>
+
+<table>
+<tr>
+<td align="center">
 
 ```text
-╔══════════════════════════════════════════════╗
-║                                              ║
-║        BUILD SYSTEMS.                        ║
-║        SOLVE HARD PROBLEMS.                  ║
-║        SHIP PRODUCTS.                        ║
-║                                              ║
-╚══════════════════════════════════════════════╝
+┌──────────────────────────────────────────┐
+│                                          │
+│   $ whoami                               │
+│                                          │
+│   Rakibul Hasan Rakib                    │
+│                                          │
+│   $ status                               │
+│                                          │
+│   ● BUILDING                             │
+│                                          │
+│   $ mission                              │
+│                                          │
+│   Build systems.                         │
+│   Solve hard problems.                   │
+│   Ship products.                         │
+│                                          │
+└──────────────────────────────────────────┘
 ```
+
+</td>
+</tr>
+</table>
 
 <br/>
 
-<img src="https://komarev.com/ghpvc/?username=britsync07-prog&style=for-the-badge&color=7C3AED" alt="Profile Views" />
+<img
+src="https://komarev.com/ghpvc/?username=r-akib-77&style=for-the-badge&color=0EA5E9"
+alt="Profile Views"
+/>
 
 </div>
 
 <br/>
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=150&color=0:7c3aed,50:4f46e5,100:050816&section=footer" alt="Footer" />
+<img
+width="100%"
+src="https://capsule-render.vercel.app/api?type=waving&height=150&color=0:0EA5E9,45:0891B2,75:164E63,100:020617&section=footer"
+alt="Footer"
+/>
