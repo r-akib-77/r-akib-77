@@ -39,9 +39,9 @@
 <tr>
 <td align="center">
 
-### Full-Stack Engineer
+### Full-Stack Engineer · Product Builder
 
-Building production-ready products across **web, backend, AI, payments, realtime systems, security, and infrastructure.**
+I turn ideas into production-ready products across **web, backend, AI, payments, realtime systems, security, and infrastructure**.
 
 </td>
 </tr>
