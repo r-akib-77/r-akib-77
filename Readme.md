@@ -1,39 +1,50 @@
 <div align="center">
 
 <img
-  width="100%"
-  src="https://capsule-render.vercel.app/api?type=waving&height=300&color=0:020617,45:0F172A,75:164E63,100:0EA5E9&text=RAKIBUL%20HASAN%20RAKIB&fontSize=44&fontColor=F8FAFC&fontAlignY=35&desc=FULL-STACK%20ENGINEER%20%E2%80%A2%20PRODUCT%20BUILDER%20%E2%80%A2%20AI%20ENGINEER&descAlignY=55&descSize=16&descColor=BAE6FD&animation=fadeIn"
-  alt="Rakibul Hasan Rakib"
-/>
+    src="./assets/hero.svg"
+    width="100%"
+    alt="Rakibul Hasan Rakib — Full-Stack Engineer"
+  />
 
 <br/>
 
-<img
-  src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=20&duration=2800&pause=900&color=38BDF8&center=true&vCenter=true&width=850&lines=I+BUILD+COMPLETE+PRODUCTS%2C+NOT+JUST+FEATURES.;FULL-STACK+%E2%86%92+BACKEND+%E2%86%92+INFRASTRUCTURE;AI+%7C+REALTIME+%7C+PAYMENTS+%7C+SECURITY;TURNING+IDEAS+INTO+PRODUCTION+SYSTEMS."
-  alt="Typing SVG"
-/>
-
 <br/><br/>
 
-<img src="https://img.shields.io/badge/FULL--STACK-0EA5E9?style=for-the-badge&labelColor=020617&logoColor=F8FAFC" alt="Full Stack"/>
-<img src="https://img.shields.io/badge/PRODUCT-06B6D4?style=for-the-badge&labelColor=020617&logoColor=F8FAFC" alt="Product"/>
-<img src="https://img.shields.io/badge/AI%20%26%20MCP-14B8A6?style=for-the-badge&labelColor=020617&logoColor=F8FAFC" alt="AI and MCP"/>
-<img src="https://img.shields.io/badge/OPEN%20TO%20BUILD-22C55E?style=for-the-badge&labelColor=020617&logoColor=F8FAFC" alt="Open to Build"/>
+<img src="./assets/badge-fullstack.svg" height="38" alt="Full Stack"/>
+<img src="./assets/badge-product.svg" height="38" alt="Product Builder"/>
+<img src="./assets/badge-ai-mcp.svg" height="38" alt="AI and MCP"/>
+<img src="./assets/badge-open-build.svg" height="38" alt="Open to Build"/>
 
 <br/><br/>
 
 <a href="https://github.com/r-akib-77">
-  <img src="https://img.shields.io/badge/GitHub-r--akib--77-0F172A?style=for-the-badge&logo=github&logoColor=F8FAFC" alt="GitHub"/>
+  <img
+    src="./assets/contact-github.svg"
+    height="46"
+    alt="GitHub — r-akib-77"
+  />
 </a>
+
+&nbsp;&nbsp;
 
 <a href="https://codeforces.com/profile/rakib_NP">
-  <img src="https://img.shields.io/badge/Codeforces-rakib__NP-0F172A?style=for-the-badge&logo=codeforces&logoColor=38BDF8" alt="Codeforces"/>
+  <img
+    src="./assets/contact-codeforces.svg"
+    height="46"
+    alt="Codeforces — rakib_NP"
+  />
 </a>
+
+&nbsp;&nbsp;
 
 <a href="mailto:rakibulhasanrakib2004@gmail.com">
-  <img src="https://img.shields.io/badge/Gmail-rakibulhasanrakib2004%40gmail.com-0F172A?style=for-the-badge&logo=gmail&logoColor=38BDF8" alt="Email"/>
+  <img
+    src="./assets/contact-email.svg"
+    height="46"
+    alt="Email — rakibulhasanrakib2004@gmail.com"
+  />
 </a>
-
+  
 </div>
 
 ---
@@ -67,46 +78,11 @@ Building production-ready products across **web, backend, AI, payments, realtime
 
 <br/>
 
-<table width="100%">
-<tr>
-
-<td align="center" width="25%">
-
-**ROLE**
-
-Full-Stack  
-Engineer
-
-</td>
-
-<td align="center" width="25%">
-
-**FOCUS**
-
-Product  
-Engineering
-
-</td>
-
-<td align="center" width="25%">
-
-**CP TEAM**
-
-Null  
-Pointer
-
-</td>
-
-<td align="center" width="25%">
-
-**CODEFORCES**
-
-`rakib_NP`
-
-</td>
-
-</tr>
-</table>
+<img
+  src="./assets/profile-info.svg"
+  width="100%"
+  alt="Profile Information"
+/>
 
 ---
 

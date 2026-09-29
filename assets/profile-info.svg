@@ -1,0 +1,204 @@
+<svg
+  width="1000"
+  height="150"
+  viewBox="0 0 1000 150"
+  xmlns="http://www.w3.org/2000/svg"
+>
+
+  <!-- Background -->
+  <rect
+    width="1000"
+    height="150"
+    rx="18"
+    fill="#020617"
+  />
+
+  <!-- ================= ROLE ================= -->
+
+  <rect
+    x="15"
+    y="15"
+    width="230"
+    height="120"
+    rx="14"
+    fill="#0F172A"
+    stroke="#164E63"
+    stroke-width="2"
+  />
+
+  <text
+    x="130"
+    y="48"
+    text-anchor="middle"
+    fill="#64748B"
+    font-family="Fira Code, monospace"
+    font-size="12"
+    font-weight="600"
+    letter-spacing="1.5"
+  >
+    ROLE
+  </text>
+
+  <text
+    x="130"
+    y="80"
+    text-anchor="middle"
+    fill="#F8FAFC"
+    font-family="Fira Code, monospace"
+    font-size="16"
+    font-weight="700"
+  >
+    Full-Stack
+  </text>
+
+  <text
+    x="130"
+    y="105"
+    text-anchor="middle"
+    fill="#38BDF8"
+    font-family="Fira Code, monospace"
+    font-size="15"
+  >
+    Engineer
+  </text>
+
+
+  <!-- ================= FOCUS ================= -->
+
+  <rect
+    x="260"
+    y="15"
+    width="230"
+    height="120"
+    rx="14"
+    fill="#0F172A"
+    stroke="#164E63"
+    stroke-width="2"
+  />
+
+  <text
+    x="375"
+    y="48"
+    text-anchor="middle"
+    fill="#64748B"
+    font-family="Fira Code, monospace"
+    font-size="12"
+    font-weight="600"
+    letter-spacing="1.5"
+  >
+    FOCUS
+  </text>
+
+  <text
+    x="375"
+    y="80"
+    text-anchor="middle"
+    fill="#F8FAFC"
+    font-family="Fira Code, monospace"
+    font-size="16"
+    font-weight="700"
+  >
+    Product
+  </text>
+
+  <text
+    x="375"
+    y="105"
+    text-anchor="middle"
+    fill="#22D3EE"
+    font-family="Fira Code, monospace"
+    font-size="15"
+  >
+    Engineering
+  </text>
+
+
+  <!-- ================= CP TEAM ================= -->
+
+  <rect
+    x="505"
+    y="15"
+    width="230"
+    height="120"
+    rx="14"
+    fill="#0F172A"
+    stroke="#164E63"
+    stroke-width="2"
+  />
+
+  <text
+    x="620"
+    y="48"
+    text-anchor="middle"
+    fill="#64748B"
+    font-family="Fira Code, monospace"
+    font-size="12"
+    font-weight="600"
+    letter-spacing="1.5"
+  >
+    CP TEAM
+  </text>
+
+  <text
+    x="620"
+    y="80"
+    text-anchor="middle"
+    fill="#F8FAFC"
+    font-family="Fira Code, monospace"
+    font-size="16"
+    font-weight="700"
+  >
+    Null
+  </text>
+
+  <text
+    x="620"
+    y="105"
+    text-anchor="middle"
+    fill="#14B8A6"
+    font-family="Fira Code, monospace"
+    font-size="15"
+  >
+    Pointer
+  </text>
+
+
+  <!-- ================= CODEFORCES ================= -->
+
+  <rect
+    x="750"
+    y="15"
+    width="235"
+    height="120"
+    rx="14"
+    fill="#0F172A"
+    stroke="#164E63"
+    stroke-width="2"
+  />
+
+  <text
+    x="867"
+    y="48"
+    text-anchor="middle"
+    fill="#64748B"
+    font-family="Fira Code, monospace"
+    font-size="12"
+    font-weight="600"
+    letter-spacing="1.5"
+  >
+    CODEFORCES
+  </text>
+
+  <text
+    x="867"
+    y="92"
+    text-anchor="middle"
+    fill="#38BDF8"
+    font-family="Fira Code, monospace"
+    font-size="17"
+    font-weight="700"
+  >
+    rakib_NP
+  </text>
+
+</svg>

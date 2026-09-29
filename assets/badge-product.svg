@@ -1,0 +1,39 @@
+<svg width="175" height="42" viewBox="0 0 175 42" xmlns="http://www.w3.org/2000/svg">
+
+<defs>
+  <linearGradient id="g" x1="0" x2="1">
+    <stop offset="0%" stop-color="#06B6D4"/>
+    <stop offset="100%" stop-color="#22D3EE"/>
+  </linearGradient>
+</defs>
+
+<rect width="175" height="42" rx="10" fill="#020617"/>
+<rect x="1" y="1" width="173" height="40" rx="9"
+      fill="none" stroke="#164E63"/>
+
+<rect x="1" y="1" width="4" height="40" rx="2"
+      fill="url(#g)"/>
+
+<circle cx="25" cy="21" r="8"
+        fill="#06B6D4" fill-opacity=".12"
+        stroke="#22D3EE"/>
+
+<path d="M21 24V18H29V24H21Z"
+      stroke="#22D3EE"
+      stroke-width="1.5"
+      fill="none"/>
+
+<path d="M23 21H27"
+      stroke="#22D3EE"
+      stroke-width="1.5"/>
+
+<text x="43" y="26"
+      fill="#F8FAFC"
+      font-family="Fira Code, monospace"
+      font-size="13"
+      font-weight="700"
+      letter-spacing=".5">
+  PRODUCT
+</text>
+
+</svg>

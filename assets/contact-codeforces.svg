@@ -1,0 +1,68 @@
+<svg width="250" height="46" viewBox="0 0 250 46" xmlns="http://www.w3.org/2000/svg">
+
+<defs>
+  <linearGradient id="cfGradient" x1="0" x2="1">
+    <stop offset="0%" stop-color="#0F172A"/>
+    <stop offset="100%" stop-color="#164E63"/>
+  </linearGradient>
+</defs>
+
+<rect width="250" height="46" rx="12" fill="#020617"/>
+
+<rect
+  x="1"
+  y="1"
+  width="248"
+  height="44"
+  rx="11"
+  fill="url(#cfGradient)"
+  stroke="#164E63"
+/>
+
+<!-- Codeforces geometric icon -->
+
+<rect x="17" y="25" width="5" height="10" rx="1" fill="#38BDF8"/>
+<rect x="24" y="19" width="5" height="16" rx="1" fill="#22D3EE"/>
+<rect x="31" y="14" width="5" height="21" rx="1" fill="#F8FAFC"/>
+
+<text
+  x="51"
+  y="20"
+  fill="#64748B"
+  font-family="Fira Code, monospace"
+  font-size="10"
+  font-weight="600">
+  CODEFORCES
+</text>
+
+<text
+  x="51"
+  y="34"
+  fill="#F8FAFC"
+  font-family="Fira Code, monospace"
+  font-size="13"
+  font-weight="700">
+  rakib_NP
+</text>
+
+<circle
+  cx="232"
+  cy="23"
+  r="4"
+  fill="#38BDF8">
+
+  <animate
+    attributeName="r"
+    values="3;5;3"
+    dur="2s"
+    repeatCount="indefinite"/>
+
+  <animate
+    attributeName="opacity"
+    values=".5;1;.5"
+    dur="2s"
+    repeatCount="indefinite"/>
+
+</circle>
+
+</svg>

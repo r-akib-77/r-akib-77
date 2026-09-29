@@ -1,0 +1,752 @@
+<svg
+  width="1400"
+  height="430"
+  viewBox="0 0 1400 430"
+  fill="none"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <defs>
+
+    <!-- =========================
+         PREMIUM GRADIENTS
+    ========================== -->
+
+    <linearGradient id="bg" x1="0" y1="0" x2="1400" y2="430">
+      <stop offset="0%" stop-color="#020617"/>
+      <stop offset="35%" stop-color="#071525"/>
+      <stop offset="65%" stop-color="#0F172A"/>
+      <stop offset="100%" stop-color="#020617"/>
+      <animate
+        attributeName="x1"
+        values="0;300;0"
+        dur="12s"
+        repeatCount="indefinite"
+      />
+    </linearGradient>
+
+    <linearGradient id="neon" x1="0" y1="0" x2="1400" y2="0">
+      <stop offset="0%" stop-color="#0EA5E9"/>
+      <stop offset="30%" stop-color="#22D3EE"/>
+      <stop offset="55%" stop-color="#38BDF8"/>
+      <stop offset="75%" stop-color="#14B8A6"/>
+      <stop offset="100%" stop-color="#0EA5E9"/>
+
+      <animate
+        attributeName="x1"
+        values="0;700;0"
+        dur="7s"
+        repeatCount="indefinite"
+      />
+      <animate
+        attributeName="x2"
+        values="1400;2100;1400"
+        dur="7s"
+        repeatCount="indefinite"
+      />
+    </linearGradient>
+
+    <linearGradient id="titleGradient" x1="300" y1="0" x2="1100" y2="0">
+      <stop offset="0%" stop-color="#F8FAFC"/>
+      <stop offset="45%" stop-color="#BAE6FD"/>
+      <stop offset="70%" stop-color="#38BDF8"/>
+      <stop offset="100%" stop-color="#22D3EE"/>
+
+      <animate
+        attributeName="x1"
+        values="300;500;300"
+        dur="5s"
+        repeatCount="indefinite"
+      />
+    </linearGradient>
+
+    <radialGradient id="ambient">
+      <stop offset="0%" stop-color="#0EA5E9" stop-opacity=".28"/>
+      <stop offset="45%" stop-color="#0891B2" stop-opacity=".10"/>
+      <stop offset="100%" stop-color="#020617" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- =========================
+         GLOW FILTERS
+    ========================== -->
+
+    <filter id="glow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="strongGlow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="12" result="blur"/>
+      <feColorMatrix
+        in="blur"
+        type="matrix"
+        values="
+          0 0 0 0 0.05
+          0 0 0 0 0.65
+          0 0 0 0 0.95
+          0 0 0 1 0"
+      />
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- =========================
+         GRID
+    ========================== -->
+
+    <pattern
+      id="grid"
+      width="45"
+      height="45"
+      patternUnits="userSpaceOnUse"
+    >
+      <path
+        d="M45 0H0V45"
+        stroke="#164E63"
+        stroke-opacity=".20"
+        stroke-width="1"
+      />
+    </pattern>
+
+    <!-- =========================
+         CLIP
+    ========================== -->
+
+    <clipPath id="rounded">
+      <rect width="1400" height="430" rx="24"/>
+    </clipPath>
+
+  </defs>
+
+  <!-- ==================================
+       BACKGROUND
+  =================================== -->
+
+  <g clip-path="url(#rounded)">
+
+    <rect
+      width="1400"
+      height="430"
+      fill="url(#bg)"
+    />
+
+    <!-- Ambient cyan light -->
+    <ellipse
+      cx="700"
+      cy="210"
+      rx="650"
+      ry="330"
+      fill="url(#ambient)"
+    >
+      <animate
+        attributeName="rx"
+        values="600;720;600"
+        dur="8s"
+        repeatCount="indefinite"
+      />
+    </ellipse>
+
+    <!-- Grid -->
+    <rect
+      width="1400"
+      height="430"
+      fill="url(#grid)"
+      opacity=".55"
+    >
+      <animateTransform
+        attributeName="transform"
+        type="translate"
+        values="0 0;45 45;0 0"
+        dur="10s"
+        repeatCount="indefinite"
+      />
+    </rect>
+
+    <!-- ==================================
+         MOVING PARTICLES
+    =================================== -->
+
+    <g fill="#38BDF8" filter="url(#glow)">
+
+      <circle cx="120" cy="90" r="2">
+        <animate
+          attributeName="cy"
+          values="90;60;90"
+          dur="3s"
+          repeatCount="indefinite"
+        />
+        <animate
+          attributeName="opacity"
+          values=".2;1;.2"
+          dur="3s"
+          repeatCount="indefinite"
+        />
+      </circle>
+
+      <circle cx="280" cy="45" r="1.5">
+        <animate
+          attributeName="cy"
+          values="45;100;45"
+          dur="4s"
+          repeatCount="indefinite"
+        />
+      </circle>
+
+      <circle cx="1110" cy="75" r="2">
+        <animate
+          attributeName="cy"
+          values="75;40;75"
+          dur="3.5s"
+          repeatCount="indefinite"
+        />
+      </circle>
+
+      <circle cx="1240" cy="145" r="1.5">
+        <animate
+          attributeName="cy"
+          values="145;95;145"
+          dur="4.5s"
+          repeatCount="indefinite"
+        />
+      </circle>
+
+      <circle cx="980" cy="45" r="1.5">
+        <animate
+          attributeName="cy"
+          values="45;80;45"
+          dur="2.8s"
+          repeatCount="indefinite"
+        />
+      </circle>
+
+      <circle cx="410" cy="110" r="1.5">
+        <animate
+          attributeName="cy"
+          values="110;70;110"
+          dur="3.7s"
+          repeatCount="indefinite"
+        />
+      </circle>
+
+    </g>
+
+    <!-- ==================================
+         TOP TERMINAL BAR
+    =================================== -->
+
+    <rect
+      x="34"
+      y="30"
+      width="1332"
+      height="42"
+      rx="12"
+      fill="#020617"
+      fill-opacity=".75"
+      stroke="#164E63"
+      stroke-width="1"
+    />
+
+    <!-- Traffic lights -->
+
+    <circle cx="58" cy="51" r="6" fill="#EF4444">
+      <animate
+        attributeName="opacity"
+        values=".65;1;.65"
+        dur="2s"
+        repeatCount="indefinite"
+      />
+    </circle>
+
+    <circle cx="80" cy="51" r="6" fill="#F59E0B"/>
+
+    <circle cx="102" cy="51" r="6" fill="#22C55E">
+      <animate
+        attributeName="opacity"
+        values=".5;1;.5"
+        dur="1.8s"
+        repeatCount="indefinite"
+      />
+    </circle>
+
+    <text
+      x="126"
+      y="57"
+      fill="#64748B"
+      font-family="Fira Code, Courier New, monospace"
+      font-size="14"
+    >
+      rakib@dev — ~/portfolio
+    </text>
+
+    <!-- Terminal status -->
+
+    <text
+      x="1190"
+      y="57"
+      fill="#22D3EE"
+      font-family="Fira Code, Courier New, monospace"
+      font-size="12"
+    >
+      SYSTEM ONLINE
+    </text>
+
+    <circle
+      cx="1168"
+      cy="52"
+      r="4"
+      fill="#22C55E"
+      filter="url(#glow)"
+    >
+      <animate
+        attributeName="r"
+        values="3;6;3"
+        dur="1.5s"
+        repeatCount="indefinite"
+      />
+    </circle>
+
+    <!-- ==================================
+         COMMAND LINE
+    =================================== -->
+
+    <text
+      x="700"
+      y="115"
+      text-anchor="middle"
+      fill="#64748B"
+      font-family="Fira Code, Courier New, monospace"
+      font-size="15"
+    >
+      <tspan fill="#22D3EE">$</tspan>
+      <tspan> whoami</tspan>
+    </text>
+
+    <!-- ==================================
+         TITLE GLOW
+    =================================== -->
+
+    <text
+      x="700"
+      y="180"
+      text-anchor="middle"
+      fill="#0EA5E9"
+      fill-opacity=".35"
+      font-family="Inter, Arial, sans-serif"
+      font-size="54"
+      font-weight="900"
+      letter-spacing="2"
+      filter="url(#strongGlow)"
+    >
+      RAKIBUL HASAN RAKIB
+
+      <animate
+        attributeName="opacity"
+        values=".15;.45;.15"
+        dur="4s"
+        repeatCount="indefinite"
+      />
+    </text>
+
+    <!-- ==================================
+         MAIN TITLE
+    =================================== -->
+
+    <text
+      x="700"
+      y="180"
+      text-anchor="middle"
+      fill="url(#titleGradient)"
+      font-family="Inter, Arial, sans-serif"
+      font-size="54"
+      font-weight="900"
+      letter-spacing="2"
+    >
+      RAKIBUL HASAN RAKIB
+    </text>
+
+    <!-- Animated highlight line -->
+
+    <rect
+      x="350"
+      y="195"
+      width="700"
+      height="2"
+      rx="1"
+      fill="url(#neon)"
+      filter="url(#glow)"
+    >
+      <animate
+        attributeName="x"
+        values="350;520;350"
+        dur="4s"
+        repeatCount="indefinite"
+      />
+      <animate
+        attributeName="width"
+        values="700;360;700"
+        dur="4s"
+        repeatCount="indefinite"
+      />
+    </rect>
+
+    <!-- ==================================
+         SUBTITLE
+    =================================== -->
+
+    <text
+      x="700"
+      y="235"
+      text-anchor="middle"
+      fill="#BAE6FD"
+      font-family="Fira Code, Courier New, monospace"
+      font-size="16"
+      letter-spacing="1"
+    >
+      FULL-STACK ENGINEER
+      <tspan fill="#22D3EE"> • </tspan>
+      PRODUCT BUILDER
+      <tspan fill="#22D3EE"> • </tspan>
+      AI ENGINEER
+    </text>
+
+    <!-- ==================================
+         ENGINEERING PIPELINE
+    =================================== -->
+
+    <rect
+      x="445"
+      y="267"
+      width="510"
+      height="48"
+      rx="12"
+      fill="#020617"
+      fill-opacity=".72"
+      stroke="#164E63"
+    />
+
+    <text
+      x="700"
+      y="298"
+      text-anchor="middle"
+      font-family="Fira Code, Courier New, monospace"
+      font-size="15"
+    >
+      <tspan fill="#22D3EE">IDEA</tspan>
+      <tspan fill="#64748B"> → </tspan>
+
+      <tspan fill="#38BDF8">ARCHITECTURE</tspan>
+      <tspan fill="#64748B"> → </tspan>
+
+      <tspan fill="#22D3EE">CODE</tspan>
+      <tspan fill="#64748B"> → </tspan>
+
+      <tspan fill="#38BDF8">SHIP</tspan>
+    </text>
+
+    <!-- ==================================
+         LEFT SYSTEM PANEL
+    =================================== -->
+
+    <rect
+      x="55"
+      y="125"
+      width="190"
+      height="175"
+      rx="14"
+      fill="#020617"
+      fill-opacity=".65"
+      stroke="#164E63"
+    />
+
+    <text
+      x="78"
+      y="153"
+      fill="#22D3EE"
+      font-family="Fira Code, Courier New, monospace"
+      font-size="13"
+      font-weight="700"
+    >
+      // BUILD
+    </text>
+
+    <text
+      x="78"
+      y="182"
+      fill="#64748B"
+      font-family="Fira Code, Courier New, monospace"
+      font-size="12"
+    >
+      &gt; SECURITY
+    </text>
+
+    <text
+      x="78"
+      y="207"
+      fill="#64748B"
+      font-family="Fira Code, Courier New, monospace"
+      font-size="12"
+    >
+      &gt; PAYMENTS
+    </text>
+
+    <text
+      x="78"
+      y="232"
+      fill="#64748B"
+      font-family="Fira Code, Courier New, monospace"
+      font-size="12"
+    >
+      &gt; REALTIME
+    </text>
+
+    <text
+      x="78"
+      y="257"
+      fill="#64748B"
+      font-family="Fira Code, Courier New, monospace"
+      font-size="12"
+    >
+      &gt; AI SYSTEMS
+    </text>
+
+    <text
+      x="78"
+      y="282"
+      fill="#38BDF8"
+      font-family="Fira Code, Courier New, monospace"
+      font-size="12"
+    >
+      &gt; OPEN SOURCE
+    </text>
+
+    <!-- ==================================
+         RIGHT SYSTEM PANEL
+    =================================== -->
+
+    <rect
+      x="1155"
+      y="125"
+      width="190"
+      height="175"
+      rx="14"
+      fill="#020617"
+      fill-opacity=".65"
+      stroke="#164E63"
+    />
+
+    <text
+      x="1178"
+      y="153"
+      fill="#22D3EE"
+      font-family="Fira Code, Courier New, monospace"
+      font-size="13"
+      font-weight="700"
+    >
+      // STACK
+    </text>
+
+    <text
+      x="1178"
+      y="182"
+      fill="#64748B"
+      font-family="Fira Code, Courier New, monospace"
+      font-size="12"
+    >
+      TYPESCRIPT
+    </text>
+
+    <text
+      x="1178"
+      y="207"
+      fill="#64748B"
+      font-family="Fira Code, Courier New, monospace"
+      font-size="12"
+    >
+      NEXT.JS
+    </text>
+
+    <text
+      x="1178"
+      y="232"
+      fill="#64748B"
+      font-family="Fira Code, Courier New, monospace"
+      font-size="12"
+    >
+      NODE.JS
+    </text>
+
+    <text
+      x="1178"
+      y="257"
+      fill="#64748B"
+      font-family="Fira Code, Courier New, monospace"
+      font-size="12"
+    >
+      POSTGRESQL
+    </text>
+
+    <text
+      x="1178"
+      y="282"
+      fill="#38BDF8"
+      font-family="Fira Code, Courier New, monospace"
+      font-size="12"
+    >
+      MCP / AI
+    </text>
+
+    <!-- ==================================
+         FUTURISTIC WAVE
+    =================================== -->
+
+    <path
+      d="M0 375
+         C130 315 210 420 340 365
+         S560 315 700 370
+         S920 425 1050 360
+         S1260 315 1400 370"
+      stroke="#0EA5E9"
+      stroke-opacity=".20"
+      stroke-width="18"
+      fill="none"
+      filter="url(#strongGlow)"
+    >
+      <animate
+        attributeName="d"
+        values="
+        M0 375 C130 315 210 420 340 365 S560 315 700 370 S920 425 1050 360 S1260 315 1400 370;
+        M0 365 C130 420 210 315 340 375 S560 425 700 360 S920 315 1050 375 S1260 420 1400 360;
+        M0 375 C130 315 210 420 340 365 S560 315 700 370 S920 425 1050 360 S1260 315 1400 370"
+        dur="7s"
+        repeatCount="indefinite"
+      />
+    </path>
+
+    <path
+      d="M0 375
+         C130 315 210 420 340 365
+         S560 315 700 370
+         S920 425 1050 360
+         S1260 315 1400 370"
+      stroke="url(#neon)"
+      stroke-width="3"
+      fill="none"
+      filter="url(#glow)"
+    >
+      <animate
+        attributeName="d"
+        values="
+        M0 375 C130 315 210 420 340 365 S560 315 700 370 S920 425 1050 360 S1260 315 1400 370;
+        M0 365 C130 420 210 315 340 375 S560 425 700 360 S920 315 1050 375 S1260 420 1400 360;
+        M0 375 C130 315 210 420 340 365 S560 315 700 370 S920 425 1050 360 S1260 315 1400 370"
+        dur="7s"
+        repeatCount="indefinite"
+      />
+    </path>
+
+    <!-- ==================================
+         PARTICLE FIELD ABOVE WAVE
+    =================================== -->
+
+    <g fill="#22D3EE" opacity=".75">
+
+      <circle cx="330" cy="350" r="2">
+        <animate
+          attributeName="cy"
+          values="350;325;350"
+          dur="2.5s"
+          repeatCount="indefinite"
+        />
+      </circle>
+
+      <circle cx="385" cy="335" r="1.5">
+        <animate
+          attributeName="cy"
+          values="335;305;335"
+          dur="3s"
+          repeatCount="indefinite"
+        />
+      </circle>
+
+      <circle cx="1020" cy="345" r="2">
+        <animate
+          attributeName="cy"
+          values="345;315;345"
+          dur="2.7s"
+          repeatCount="indefinite"
+        />
+      </circle>
+
+      <circle cx="1080" cy="330" r="1.5">
+        <animate
+          attributeName="cy"
+          values="330;300;330"
+          dur="3.2s"
+          repeatCount="indefinite"
+        />
+      </circle>
+
+    </g>
+
+    <!-- ==================================
+         STATUS FOOTER
+    =================================== -->
+
+    <text
+      x="700"
+      y="397"
+      text-anchor="middle"
+      fill="#64748B"
+      font-family="Fira Code, Courier New, monospace"
+      font-size="12"
+    >
+      [ rakib@dev ~ ] —
+      <tspan fill="#22C55E"> AVAILABLE </tspan>
+      —
+      BUILDING SYSTEMS THAT SHIP
+    </text>
+
+    <!-- ==================================
+         BLINKING CURSOR
+    =================================== -->
+
+    <rect
+      x="1080"
+      y="106"
+      width="8"
+      height="16"
+      rx="2"
+      fill="#22D3EE"
+      filter="url(#glow)"
+    >
+      <animate
+        attributeName="opacity"
+        values="1;0;1"
+        dur="1s"
+        repeatCount="indefinite"
+      />
+    </rect>
+
+  </g>
+
+  <!-- ==================================
+       PREMIUM BORDER
+  =================================== -->
+
+  <rect
+    x="1.5"
+    y="1.5"
+    width="1397"
+    height="427"
+    rx="24"
+    fill="none"
+    stroke="url(#neon)"
+    stroke-width="2"
+    opacity=".8"
+  />
+
+</svg>
