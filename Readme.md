@@ -51,11 +51,9 @@
 
 <br/>
 
-<img
-  src="./assets/about.svg"
-  width="100%"
-  alt="About Rakibul Hasan Rakib"
-/>
+### Full-Stack Engineer · Product Builder
+
+I turn ideas into production-ready products across **web, backend, AI, payments, realtime systems, security, and infrastructure**.
 
 <br/>
 
